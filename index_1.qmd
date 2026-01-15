@@ -1,0 +1,70 @@
+---
+title: "António Barros"
+subtitle: "Biostatistician & Bioinformatician"
+image: images/profile.jpg
+page-layout: full
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+  image-width: 200px
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:asbarros@med.up.pt
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourprofile
+    - icon: github
+      text: GitHub
+      href: https://github.com/antoniobarros
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=XXXXXXX
+    - text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=XXXXXXX
+    - text: ORCID
+      href: https://orcid.org/0000-0002-9103-5852
+---
+
+::: {.hero-banner}
+![](images/banner.jpg)
+:::
+
+:::{#hero-heading}
+
+I am a **Biostatistician** and **Bioinformatician** at the [Faculty of Medicine, University of Porto (FMUP)](https://med.up.pt), integrated in [RISE-Health](https://rise-health.pt/pt-pt/home/). My work focuses on cardiovascular research, with particular expertise in predictive modeling and machine learning applications in medicine.
+
+## Research Interests
+
+- **Cardiovascular Research** — Risk prediction, clinical outcomes
+- **Machine Learning in Medicine** — Predictive modeling, model calibration
+- **Multi-omics Integration** — Proteomics, metabolomics, radiomics
+- **Survival Analysis** — Joint modeling, competing risks, high-dimensional data
+
+## Education
+
+**PhD in Biostatistics** | University of Porto
+
+**MSc in Applied Statistics** | University of Porto
+
+**BSc in Mathematics** | University of Porto
+
+:::
+
+## Recent News
+
+::: {.highlight-box}
+**2025** — Preparing for academic aggregation in Biostatistics, Machine Learning, and AI in Medicine
+:::
+
+- **2024** — FCT-funded CardioNIR project on near-infrared spectroscopy for cardiac surgery
+- **2024** — New grant proposal submitted for cardiovascular AI infrastructure
+
+## Contact
+
+Faculty of Medicine, University of Porto  
+Alameda Prof. Hernâni Monteiro  
+4200-319 Porto, Portugal
+
+📧 [asbarros@med.up.pt](mailto:asbarros@med.up.pt)
