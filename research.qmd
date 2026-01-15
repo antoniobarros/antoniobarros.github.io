@@ -7,13 +7,19 @@ My research focuses on developing and applying advanced statistical and machine 
 ## Current Projects
 
 ### CardioNIR
-**FCT-funded project** investigating near-infrared spectroscopy applications in cardiac surgery. This project explores novel biomarker detection methods for perioperative risk assessment.
+**FCT-funded project** investigating near-infrared spectroscopy applications in cardiac surgery. This project explores biomarker detection methods for perioperative risk assessment.
 
 ### Cardio-Oncology Cohort Studies
 Collaboration with breast cancer survivor cohorts to assess long-term cardiovascular risk following cancer treatment. This work integrates clinical data with multi-modal biomarkers.
 
 ### Cardiovascular AI Infrastructure
-Development of automated extraction pipelines for clinical data and multi-modal biomarker analysis. Grant proposals in preparation for EU4Health programme applications.
+Development of automated extraction pipelines for clinical data and multi-modal biomarker analysis.
+
+### Plastic Surgery Clinical Studies
+Partnership with plastic surgery departments to assess surgical techniques, postoperative complications, and functional outcomes. This research combines clinical and procedural data to identify predictors of success and inform evidence-based practice.
+
+### Trauma Surgery Outcomes Research
+Collaboration with trauma surgery teams to evaluate patient outcomes, injury severity patterns, and treatment effectiveness. 
 
 ---
 
@@ -47,14 +53,12 @@ Development of automated extraction pipelines for clinical data and multi-modal 
 
 ## Software & Tools
 
-I develop and maintain R packages and analysis pipelines for:
+I develop and maintain R packages (via Rust) and analysis pipelines for:
 
 - Survival analysis with regularization
 - Radiomics feature processing
 - Clinical prediction model validation
 - Multi-omics integration workflows
-
-All code is available on [GitHub](https://github.com/yourusername).
 
 ---
 
@@ -62,8 +66,6 @@ All code is available on [GitHub](https://github.com/yourusername).
 
 I actively collaborate with:
 
-- **Clinical teams** at Centro Hospitalar Universitário de São João
-- **International research groups** in cardiovascular epidemiology
-- **Industry partners** in biomedical device development
+- **Clinical teams** at ULS São João and ULS Gaia-Espinho
 
-Interested in collaboration? [Contact me](mailto:your.email@fmup.pt).
+Interested in collaboration? [Contact me](mailto:asbarros@med.up.pt).

@@ -1,7 +1,7 @@
 ---
-title: "António Researcher"
-subtitle: "Biostatistician & Researcher"
-image: images/profile.jpg
+title: "António Barros"
+subtitle: "Biostatistician & Bioinformatics"
+image: images/image1.jpg
 about:
   id: hero-heading
   template: trestles
@@ -11,50 +11,38 @@ about:
     - icon: envelope
       text: Email
       href: mailto:asbarros@med.up.pt
-    - icon: github
-      text: GitHub
-      href: https://github.com/antoniobarros
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/yourprofile
+      href: https://linkedin.com/in/antónio-barros-9654b678/
+    - text: Google Scholar 
+      href: https://scholar.google.pt/citations?user=nbFmvSwAAAAJ&hl=en
     - icon: mortarboard
       text: Scopus
-      href: https://scholar.google.com/citations?user=XXXXXXX
+      href: https://www.scopus.com/authid/detail.uri?authorId=56130256800
     - text: "ORCID"
       href: https://orcid.org/0000-0002-9103-5852
 ---
 
-:::{#hero-heading}
-
-I am a **Biostatistician** and **Researcher** at the [Faculty of Medicine, University of Porto (FMUP)](https://www.med.up.pt), specializing in cardiovascular research with particular expertise in cardio-oncology, radiomics, and machine learning applications in medicine.
+::: {#hero-heading}
+I am a **Biostatistician** and **Bioinformatician** at the [Faculty of Medicine, University of Porto (FMUP)](https://www.med.up.pt), integrated in [RISE-Health](https://rise-health.pt/home_en/). My work focuses on cardiovascular research, with particular expertise in predictive modeling and machine learning applications in medicine.
 
 ## Research Interests
 
-- **Cardiovascular Epidemiology** — Risk prediction, clinical outcomes
-- **Machine Learning in Medicine** — Predictive modeling, model calibration
-- **Multi-omics Integration** — Proteomics, metabolomics, radiomics
-- **Survival Analysis** — Joint modeling, competing risks, high-dimensional data
-
-## Education
-
-**PhD in Biostatistics** | University of Porto | 2015–2020
-
-**MSc in Applied Statistics** | University of Porto | 2012–2014
-
-**BSc in Mathematics** | University of Porto | 2008–2012
-
+-   **Cardiovascular Research** — Risk prediction, clinical outcomes
+-   **Machine Learning in Medicine** — Predictive modeling, model calibration
+-   **Multi-omics Integration** — Proteomics, metabolomics, radiomics
+-   **Survival Analysis** — Joint modeling, competing risks, high-dimensional data
 :::
 
 ## Recent News
 
-- **2025** — Preparing for academic aggregation in Biostatistics, Machine Learning, and AI in Medicine
-- **2024** — FCT-funded CardioNIR project on near-infrared spectroscopy for cardiac surgery
-- **2024** — New grant proposal submitted for cardiovascular AI infrastructure
+-   **2025 july** — IBERIA project funded
+-   **2025 december** - Papers accepted
 
 ## Contact
 
-Faculty of Medicine, University of Porto  
-Alameda Prof. Hernâni Monteiro  
+Faculty of Medicine, University of Porto\
+Alameda Prof. Hernâni Monteiro\
 4200-319 Porto, Portugal
 
-📧 [your.email@fmup.pt](mailto:your.email@fmup.pt)
+📧 [asbarros\@med.up.pt](mailto:asbarros@med.up.pt)

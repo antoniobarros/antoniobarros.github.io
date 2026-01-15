@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "António Researcher"  
+  title: "António Barros"  
   description: "Biostatistician & Bioinformatician | Faculty of Medicine, University of Porto"
   site-url: https://antoniobarros.github.io 
   
@@ -21,6 +21,8 @@ website:
         text: Teaching
       - href: cv.qmd
         text: CV
+      - href: posts.qmd
+        text: Blog
     right:
       - icon: envelope
         href: mailto:asbarros@med.up.pt

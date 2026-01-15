@@ -6,38 +6,25 @@ title: "Curriculum Vitae"
 
 ## Academic Positions
 
-**Assistant Professor** | Faculty of Medicine, University of Porto | 2020–Present
+**Assistant Researcher** | Faculty of Medicine, University of Porto | 2017–Present
 
 - Research in cardiovascular biostatistics and machine learning
 - Teaching biostatistics at MSc and PhD levels
 - Supervision of graduate students
 
-**Postdoctoral Researcher** | FMUP | 2018–2020
+**Assistant Researcher** | UA | 2003–2016
 
-- Development of clinical prediction models
-- Multi-omics data integration methods
-
----
-
-## Education
-
-**PhD in Biostatistics** | University of Porto | 2015–2020  
-*Thesis: [Title of your thesis]*  
-Supervisor: Prof. [Name]
-
-**MSc in Applied Statistics** | University of Porto | 2012–2014  
-*Thesis: [Title]*
-
-**BSc in Mathematics** | University of Porto | 2008–2012
+- Multivariate analysis / Omics
+- Proteomics and Metabolomics
 
 ---
 
 ## Research Grants & Funding
 
-| Year | Project | Funder | Role | Amount |
-|------|---------|--------|------|--------|
-| 2024 | CardioNIR | FCT | PI | €XXX,XXX |
-| 2023 | [Project Name] | [Funder] | Co-I | €XX,XXX |
+| Year | Project | Funder | Role |
+|------|---------|--------|------|
+| 2021 | CardioNIR | FCT | PI |
+| 2025 | IBERIA | Compete | PI | 
 
 ---
 
@@ -76,23 +63,16 @@ See the full [Publications](publications.qmd) page.
 
 - Reviewer for: *Statistics in Medicine*, *BMC Medical Research Methodology*, ...
 
-### Committees
-
-- Member, [Committee Name], [Organization]
-
-### Conference Organization
-
-- Session Chair, [Conference], [Year]
-
 ---
 
 ## Technical Skills
 
-**Statistical Software:** R (advanced), Python, SAS, SPSS  
+**Statistical Software:** R (advanced), Python,  
 **Programming:** R package development, Shiny applications  
 **Reproducibility:** Quarto, R Markdown, Git/GitHub  
-**Machine Learning:** tidymodels, caret, glmnet, survival analysis packages  
-**Specialized:** Radiomics analysis, multi-omics integration pipelines
+**Statistical & Machine Learning Application:** 
+    : Radiomics
+    : Metabolomics & 
 
 ---
 
