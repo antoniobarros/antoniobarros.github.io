@@ -1,0 +1,69 @@
+---
+title: "Research"
+---
+
+My research focuses on developing and applying advanced statistical and machine learning methods to cardiovascular medicine. I work at the intersection of biostatistics, clinical epidemiology, and data science.
+
+## Current Projects
+
+### CardioNIR
+**FCT-funded project** investigating near-infrared spectroscopy applications in cardiac surgery. This project explores novel biomarker detection methods for perioperative risk assessment.
+
+### Cardio-Oncology Cohort Studies
+Collaboration with breast cancer survivor cohorts to assess long-term cardiovascular risk following cancer treatment. This work integrates clinical data with multi-modal biomarkers.
+
+### Cardiovascular AI Infrastructure
+Development of automated extraction pipelines for clinical data and multi-modal biomarker analysis. Grant proposals in preparation for EU4Health programme applications.
+
+---
+
+## Research Areas
+
+### Survival Analysis & Longitudinal Methods
+- Elastic net Cox regression for high-dimensional predictors
+- Joint modeling of longitudinal and time-to-event data
+- Mixed-effects models for repeated measures
+- Competing risks analysis
+
+### Machine Learning in Medicine
+- Clinical prediction model development and validation
+- Model calibration assessment and improvement
+- Conformal prediction for uncertainty quantification
+- Regularization methods for high-dimensional data
+
+### Multi-omics Integration
+- Proteomics and metabolomics data analysis
+- Radiomics feature extraction and selection
+- Integration frameworks for multi-modal cardiovascular data
+- Dried blood spot technology for biomarker analysis
+
+### Methodological Development
+- Zero-inflated models for coronary artery calcium scores
+- Hierarchical temporal frameworks for multi-modal data
+- Calibration metrics for survival models
+- High-dimensional variable selection
+
+---
+
+## Software & Tools
+
+I develop and maintain R packages and analysis pipelines for:
+
+- Survival analysis with regularization
+- Radiomics feature processing
+- Clinical prediction model validation
+- Multi-omics integration workflows
+
+All code is available on [GitHub](https://github.com/yourusername).
+
+---
+
+## Collaborations
+
+I actively collaborate with:
+
+- **Clinical teams** at Centro Hospitalar Universitário de São João
+- **International research groups** in cardiovascular epidemiology
+- **Industry partners** in biomedical device development
+
+Interested in collaboration? [Contact me](mailto:your.email@fmup.pt).

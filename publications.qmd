@@ -1,0 +1,70 @@
+---
+title: "Publications"
+bibliography: references.bib
+nocite: |
+  @*
+---
+
+## Selected Publications
+
+Below is a selection of my published work. For a complete list, see my [Google Scholar](https://scholar.google.com/citations?user=XXXXXXX) or [ORCID](https://orcid.org/0000-0000-0000-0000) profiles.
+
+### 2024
+
+::: {.callout-note appearance="minimal"}
+## Example Publication Entry
+
+**Title of Your Paper**  
+Author A, **Your Name**, Author C  
+*Journal Name*, 2024, Volume(Issue), Pages  
+[DOI](https://doi.org/10.xxxx/xxxxx) | [PDF](papers/paper2024.pdf) | [Code](https://github.com/yourusername/repo)
+:::
+
+### 2023
+
+<!-- Add your publications here following the format above -->
+
+### 2022
+
+<!-- Add your publications here -->
+
+---
+
+## Preprints & Working Papers
+
+<!-- List preprints and manuscripts under review -->
+
+---
+
+## Conference Presentations
+
+### 2024
+
+- **Title of Presentation**  
+  Conference Name, Location  
+  [Slides](slides/conference2024.pdf)
+
+### 2023
+
+<!-- Add conference presentations -->
+
+---
+
+## Theses Supervised
+
+### PhD Theses
+
+<!-- List PhD students supervised -->
+
+### MSc Theses
+
+<!-- List MSc students supervised -->
+
+---
+
+## Bibliography
+
+The following is automatically generated from the `references.bib` file:
+
+::: {#refs}
+:::

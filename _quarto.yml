@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "António Researcher"  # Replace with your name
+  description: "Biostatistician | Faculty of Medicine, University of Porto"
+  site-url: https://yourusername.github.io  # Update with your GitHub username
+  
+  navbar:
+    background: "#2c3e50"
+    foreground: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/yourusername
+      - icon: envelope
+        href: mailto:your.email@example.com
+      - icon: mortarboard
+        href: https://orcid.org/0000-0000-0000-0000  # Your ORCID
+
+  page-footer:
+    center: |
+      © 2025 António Researcher · Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    highlight-style: github
+
+# For academic citations
+bibliography: references.bib
+csl: apa.csl
+
+execute:
+  freeze: auto

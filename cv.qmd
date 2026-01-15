@@ -1,0 +1,107 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download PDF version](cv/cv-full.pdf){.btn .btn-primary}
+
+## Academic Positions
+
+**Assistant Professor** | Faculty of Medicine, University of Porto | 2020–Present
+
+- Research in cardiovascular biostatistics and machine learning
+- Teaching biostatistics at MSc and PhD levels
+- Supervision of graduate students
+
+**Postdoctoral Researcher** | FMUP | 2018–2020
+
+- Development of clinical prediction models
+- Multi-omics data integration methods
+
+---
+
+## Education
+
+**PhD in Biostatistics** | University of Porto | 2015–2020  
+*Thesis: [Title of your thesis]*  
+Supervisor: Prof. [Name]
+
+**MSc in Applied Statistics** | University of Porto | 2012–2014  
+*Thesis: [Title]*
+
+**BSc in Mathematics** | University of Porto | 2008–2012
+
+---
+
+## Research Grants & Funding
+
+| Year | Project | Funder | Role | Amount |
+|------|---------|--------|------|--------|
+| 2024 | CardioNIR | FCT | PI | €XXX,XXX |
+| 2023 | [Project Name] | [Funder] | Co-I | €XX,XXX |
+
+---
+
+## Selected Publications
+
+See the full [Publications](publications.qmd) page.
+
+**Highlight papers:**
+
+1. Author et al. (2024). Title. *Journal*. [DOI](https://doi.org/)
+2. Author et al. (2023). Title. *Journal*. [DOI](https://doi.org/)
+
+---
+
+## Teaching Experience
+
+| Course | Level | Institution | Years |
+|--------|-------|-------------|-------|
+| Biostatistics for Medical Research | MSc | FMUP | 2020– |
+| Machine Learning in Healthcare | PhD | FMUP | 2022– |
+| Applied Data Science in Medicine | Postgrad | FMUP | 2021– |
+
+---
+
+## Student Supervision
+
+**PhD Students (completed):** X  
+**PhD Students (ongoing):** X  
+**MSc Students (completed):** X  
+
+---
+
+## Professional Service
+
+### Editorial
+
+- Reviewer for: *Statistics in Medicine*, *BMC Medical Research Methodology*, ...
+
+### Committees
+
+- Member, [Committee Name], [Organization]
+
+### Conference Organization
+
+- Session Chair, [Conference], [Year]
+
+---
+
+## Technical Skills
+
+**Statistical Software:** R (advanced), Python, SAS, SPSS  
+**Programming:** R package development, Shiny applications  
+**Reproducibility:** Quarto, R Markdown, Git/GitHub  
+**Machine Learning:** tidymodels, caret, glmnet, survival analysis packages  
+**Specialized:** Radiomics analysis, multi-omics integration pipelines
+
+---
+
+## Languages
+
+- **Portuguese:** Native
+- **English:** Fluent
+- **Spanish:** Intermediate
+
+---
+
+*Last updated: January 2025*

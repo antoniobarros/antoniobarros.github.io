@@ -1,0 +1,84 @@
+---
+title: "Teaching"
+---
+
+I teach biostatistics, machine learning, and data analysis methods at the Faculty of Medicine, University of Porto. My pedagogical approach integrates classical biostatistical methods with modern machine learning techniques.
+
+## Current Courses
+
+### Biostatistics for Medical Research
+**MSc in Medicine** | FMUP
+
+Introduction to statistical methods for clinical and epidemiological research, including:
+
+- Descriptive statistics and data visualization
+- Hypothesis testing and confidence intervals
+- Regression analysis (linear, logistic)
+- Survival analysis fundamentals
+
+### Machine Learning in Healthcare
+**PhD Programme** | FMUP
+
+Advanced course covering:
+
+- Supervised learning methods for clinical prediction
+- Model validation and calibration
+- High-dimensional data analysis
+- Practical applications with R
+
+### Applied Data Science in Medicine
+**Postgraduate Course** | FMUP
+
+Hands-on workshop series on:
+
+- R programming for medical research
+- Reproducible research with Quarto
+- Clinical prediction modeling
+- Multi-omics data integration
+
+---
+
+## Teaching Materials
+
+Selected teaching resources are available below:
+
+### Tutorials
+
+- [Introduction to Survival Analysis in R](tutorials/survival-intro.html)
+- [Elastic Net Regression for High-Dimensional Data](tutorials/elastic-net.html)
+- [Model Calibration Assessment](tutorials/calibration.html)
+
+### Lecture Slides
+
+Available upon request for registered students.
+
+---
+  
+## Student Supervision
+
+I am currently supervising or co-supervising:
+
+- **3 PhD students** — Topics in cardio-oncology, radiomics, and predictive modeling
+- **5 MSc students** — Various biostatistics and health data science projects
+
+### Available Projects
+
+I am looking for motivated students interested in:
+
+1. Machine learning methods for cardiovascular risk prediction
+2. Multi-omics integration in cardio-oncology
+3. Statistical methods for radiomics data
+4. Development of clinical decision support tools
+
+**Interested?** [Contact me](mailto:your.email@fmup.pt) with your CV and a brief description of your research interests.
+
+---
+
+## Pedagogical Philosophy
+
+My teaching philosophy emphasizes:
+
+1. **Integration of theory and practice** — Every statistical concept is illustrated with real medical examples
+2. **Reproducibility** — All analyses are conducted in R with documented, shareable code
+3. **Critical thinking** — Students learn to question assumptions and interpret results in context
+4. **The evolving role of researchers** — Preparing students for an AI-augmented research landscape
