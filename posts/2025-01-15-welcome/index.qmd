@@ -1,0 +1,8 @@
+---
+title: "Welcome"
+author: "António Barros"
+date: "2025-01-15"
+categories: [news]
+---
+
+Welcome to my blog. More posts coming soon.
