@@ -10,18 +10,18 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:your.email@fmup.pt
+      href: mailto:asbarros@med.up.pt
     - icon: github
       text: GitHub
-      href: https://github.com/yourusername
+      href: https://github.com/antoniobarros
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/yourprofile
     - icon: mortarboard
-      text: Google Scholar
+      text: Scopus
       href: https://scholar.google.com/citations?user=XXXXXXX
-    - text: "{{< ai orcid >}} ORCID"
-      href: https://orcid.org/0000-0000-0000-0000
+    - text: "ORCID"
+      href: https://orcid.org/0000-0002-9103-5852
 ---
 
 :::{#hero-heading}

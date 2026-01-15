@@ -47,7 +47,6 @@ format:
 
 # For academic citations
 bibliography: references.bib
-csl: apa.csl
 
 execute:
   freeze: auto
