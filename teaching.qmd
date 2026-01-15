@@ -38,28 +38,11 @@ Hands-on workshop series on:
 
 ---
 
-## Teaching Materials
-
-Selected teaching resources are available below:
-
-### Tutorials
-
-- [Introduction to Survival Analysis in R](tutorials/survival-intro.html)
-- [Elastic Net Regression for High-Dimensional Data](tutorials/elastic-net.html)
-- [Model Calibration Assessment](tutorials/calibration.html)
-
 ### Lecture Slides
 
 Available upon request for registered students.
 
 ---
-  
-## Student Supervision
-
-I am currently supervising or co-supervising:
-
-- **3 PhD students** — Topics in cardio-oncology, radiomics, and predictive modeling
-- **5 MSc students** — Various biostatistics and health data science projects
 
 ### Available Projects
 
@@ -70,7 +53,7 @@ I am looking for motivated students interested in:
 3. Statistical methods for radiomics data
 4. Development of clinical decision support tools
 
-**Interested?** [Contact me](mailto:your.email@fmup.pt) with your CV and a brief description of your research interests.
+**Interested?** [Contact me](mailto:asbarros@med.up.pt) with your CV and a brief description of your research interests.
 
 ---
 
@@ -79,6 +62,6 @@ I am looking for motivated students interested in:
 My teaching philosophy emphasizes:
 
 1. **Integration of theory and practice** — Every statistical concept is illustrated with real medical examples
-2. **Reproducibility** — All analyses are conducted in R with documented, shareable code
+2. **Reproducibility** — All analyses are conducted in R/Python with documented code
 3. **Critical thinking** — Students learn to question assumptions and interpret results in context
 4. **The evolving role of researchers** — Preparing students for an AI-augmented research landscape
