@@ -1,6 +1,6 @@
 ---
 title: "António Barros"
-subtitle: "Biostatistician & Bioinformatics"
+subtitle: "Biostatistician & Bioinformatician"
 image: images/image1.jpg
 about:
   id: hero-heading
