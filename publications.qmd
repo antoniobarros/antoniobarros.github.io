@@ -1,70 +1,1087 @@
 ---
 title: "Publications"
-bibliography: references.bib
-nocite: |
-  @*
+page-layout: full
+toc: false
+title-block-banner: false
+css: publications.css
 ---
 
-## Selected Publications
+```{=html}
+<div class="pubs-widget">
 
-Below is a selection of my published work. For a complete list, see my [Google Scholar](https://scholar.google.com/citations?user=XXXXXXX) or [ORCID](https://orcid.org/0000-0000-0000-0000) profiles.
+<div class="container">
+  <header>
+    <h1>Publications</h1>
+    <p class="subtitle">António S. Barros — Faculty of Medicine, University of Porto · RISE-Health</p>
+    <div class="metrics">
+      <div class="metric"><span class="metric-value">190+</span><span class="metric-label">Papers</span></div>
+      <div class="metric"><span class="metric-value">7,020+</span><span class="metric-label">Citations</span></div>
+      <div class="metric"><span class="metric-value">49</span><span class="metric-label">H-index</span></div>
+    </div>
+  </header>
 
-### 2024
+  <div class="controls">
+    <input type="text" class="search-box" id="search" placeholder="Search by title, author, journal, or year…">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="journal">Journal</button>
+    <button class="filter-btn" data-filter="book">Book</button>
+    <button class="filter-btn" data-filter="chapter">Chapter</button>
+    <button class="filter-btn" data-filter="preprint">Preprint</button>
+    <button class="filter-btn" data-filter="abstract">Abstract</button>
+    <button class="filter-btn" data-filter="poster">Poster</button>
+    <button class="filter-btn" data-filter="confpaper">Conf. Paper</button>
+    <span class="result-count" id="count"></span>
+  </div>
 
-::: {.callout-note appearance="minimal"}
-## Example Publication Entry
+  <div id="publications">
 
-**Title of Your Paper**  
-Author A, **Your Name**, Author C  
-*Journal Name*, 2024, Volume(Issue), Pages  
-[DOI](https://doi.org/10.xxxx/xxxxx) | [PDF](papers/paper2024.pdf) | [Code](https://github.com/yourusername/repo)
-:::
+<!-- ===== 2026 ===== -->
+<div class="year-group" data-year="2026">
+<span class="year-label">2026</span>
 
-### 2023
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1093/molecular-omics/aaiag002">Uncovering urinary proteogenomic signatures associated with head and neck squamous cell carcinoma</a></div>
+<div class="pub-authors">Barros O, Silva JC, Monteiro E, Aveiro S, Domingues P, Sousa PV, Castro C, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Molecular Omics</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1093/molecular-omics/aaiag002">10.1093/molecular-omics/aaiag002</a></span></div>
+</div>
 
-<!-- Add your publications here following the format above -->
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s00266-026-05621-9">High-Precision Electrosurgical Scalpel for Scarpa Sparing Abdominoplasty – Pilot Randomized Controlled Trial of Efficacy and Safety</a></div>
+<div class="pub-authors">Castro-Pinto S, Gandra G, <span class="me">Barros AS</span>, Rebelo M, Peres H, Costa-Ferreira A</div>
+<div class="pub-journal">Aesthetic Plastic Surgery</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s00266-026-05621-9">10.1007/s00266-026-05621-9</a></span></div>
+</div>
+</div>
 
-### 2022
+<!-- ===== 2025 ===== -->
+<div class="year-group" data-year="2025">
+<span class="year-label">2025</span>
 
-<!-- Add your publications here -->
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1186/s12955-025-02451-2">Non-motor symptoms as critical predictors of quality of life in Parkinson's disease: a machine learning approach</a></div>
+<div class="pub-authors">Magano D, <span class="me">Barros AS</span>, Massano J, Alsuwaidi L, Taveira-Gomes T</div>
+<div class="pub-journal">Health and Quality of Life Outcomes</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1186/s12955-025-02451-2">10.1186/s12955-025-02451-2</a></span></div>
+</div>
 
----
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.4081/monaldi.2025.3621">Optimizing cardiovascular risk control after an acute coronary syndrome: the role of a structured follow-up program</a></div>
+<div class="pub-authors">Baburko M, Leite M, Diaz SO, Vilela E, <span class="me">Barros AS</span>, Saraiva F, Santos Silva G, Sampaio F, Fontes-Carvalho R</div>
+<div class="pub-journal">Monaldi Archives for Chest Disease</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.4081/monaldi.2025.3621">10.4081/monaldi.2025.3621</a></span></div>
+</div>
 
-## Preprints & Working Papers
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.mvr.2025.104864">Pilot study on near-infrared spectroscopy in peripheral artery disease: Differentiating upper and lower limbs and its correlation with the ankle-brachial index</a></div>
+<div class="pub-authors">Braga Amorim J, Dias Neto M, Magalhães S, <span class="me">Barros AS</span></div>
+<div class="pub-journal">Microvascular Research, 162, 104864</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.mvr.2025.104864">10.1016/j.mvr.2025.104864</a></span></div>
+</div>
 
-<!-- List preprints and manuscripts under review -->
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1093/cvr/cvaf208">Pharmacological clearance of senescent cells reduces inflammation, endothelial damage and cardiac fibrosis in HFpEF</a></div>
+<div class="pub-authors">Silva ED, Tomé I, Vasques-Nóvoa F, Conceição G, Silva A, <span class="me">Barros AS</span>, Mendes-Ferreira P, et al.</div>
+<div class="pub-journal">Cardiovascular Research</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1093/cvr/cvaf208">10.1093/cvr/cvaf208</a></span></div>
+</div>
 
----
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1186/s12014-025-09549-1">Dissecting sexual dimorphism in aortic valve stenosis by proteomics</a></div>
+<div class="pub-authors">Grego A, Sousa-Mendes C, Martins D, Sousa C, Ferreira AF, Saraiva F, Alves I, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Clinical Proteomics, 22(1)</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1186/s12014-025-09549-1">10.1186/s12014-025-09549-1</a></span></div>
+</div>
 
-## Conference Presentations
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s00266-025-05142-x">Breast Implant Illness: Symptoms, Outcomes with Explantation and Potential Etiologies — A Systematic Review and Meta-analysis</a></div>
+<div class="pub-authors">Ferreira S, <span class="me">Barros AS</span>, Marques M</div>
+<div class="pub-journal">Aesthetic Plastic Surgery</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s00266-025-05142-x">10.1007/s00266-025-05142-x</a></span></div>
+</div>
 
-### 2024
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1136/egastro-2025-100204">Gut dysbiosis is linked to severe steatosis and enhances its diagnostic performance in MASLD</a></div>
+<div class="pub-authors">Borges-Canha M, Centelles-Lodeiro J, Leite AR, Chaves J, Lourenço IM, Von-Hafe M, Vale C, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">eGastroenterology, 3(3), e100204</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1136/egastro-2025-100204">10.1136/egastro-2025-100204</a></span></div>
+</div>
 
-- **Title of Presentation**  
-  Conference Name, Location  
-  [Slides](slides/conference2024.pdf)
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/app15105569">Comparative Kinematic Analysis of Patellar vs. Hamstring Autografts in ACL Reconstruction on Side-Hop Test Performance</a></div>
+<div class="pub-authors">Costa A, Fonseca P, Correia M, <span class="me">Barros A</span>, Sousa F, Gutierres M</div>
+<div class="pub-journal">Applied Sciences</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/app15105569">10.3390/app15105569</a></span></div>
+</div>
 
-### 2023
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ejvs.2025.05.015">Pilot Study of Radiomic Analysis for Assessment of the Proximal Neck in Abdominal Aortic Aneurysms</a></div>
+<div class="pub-authors">Trigo V, Sousa-Nunes F, Campos Jácome AF, Magalhães S, <span class="me">Barros AS</span>, Neto MD</div>
+<div class="pub-journal">European Journal of Vascular and Endovascular Surgery</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ejvs.2025.05.015">10.1016/j.ejvs.2025.05.015</a></span></div>
+</div>
 
-<!-- Add conference presentations -->
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/nu17060943">The Role of Chlorella and Spirulina as Adjuvants of Cardiovascular Risk Factor Control: A Systematic Review and Meta-Analysis of Randomised Controlled Trials</a></div>
+<div class="pub-authors">Pinto-Leite M, Martins D, Ferreira AC, Silva C, Trindade F, Saraiva F, Vitorino R, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Nutrients, 17(6), 943</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/nu17060943">10.3390/nu17060943</a></span></div>
+</div>
 
----
+<div class="pub" data-type="abstract">
+<div class="pub-title">Gut microbiota and blood metabolome changes from acute stroke to recovery: A pilot study</div>
+<div class="pub-authors">Martins D, Batista AB, Centelles-Lodeiro J, Diaz SO, Ferreira J, Silva C, Ferreira AC, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">26º Congresso do Núcleo de Estudos da Doença Vascular Cerebral, Porto</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
 
-## Theses Supervised
+<div class="pub" data-type="poster">
+<div class="pub-title">Use of handheld NIRS profiling in cardiac surgery: predictive modelling in surgical procedures under cardiopulmonary bypass</div>
+<div class="pub-authors">Moreira-Costa L, Lourenço A, Magalhães S, Leite-Moreira A, <span class="me">Barros A</span></div>
+<div class="pub-journal">Health Congress, 2025</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
 
-### PhD Theses
+<div class="pub" data-type="poster">
+<div class="pub-title">Gut microbiome and metabolome evolution from acute stroke to recovery: A pilot longitudinal study</div>
+<div class="pub-authors">Martins D, Batista AB, Centelles-Lodeiro J, Diaz SO, Ferreira J, Silva C, Ferreira AC, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Congresso de Microbiologia e Biotecnologia 2025</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
 
-<!-- List PhD students supervised -->
+<div class="pub" data-type="poster">
+<div class="pub-title">Fungal microbiome changes and associated serum NMR metabolic signatures in stroke: A 3-month pilot study</div>
+<div class="pub-authors">Miranda I, Martins D, Batista AB, Gonçalves MFM, Ferreira AC, Silva C, Ferreira J, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Congresso de Microbiologia e Biotecnologia 2025</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
 
-### MSc Theses
+<div class="pub" data-type="poster">
+<div class="pub-title">Association between abdominal fat distribution, coronary artery calcium score, and all-cause mortality: data from a large cohort of patients submitted to cardiac CT scan</div>
+<div class="pub-authors">Costa CF, <span class="me">Barros AS</span>, Nunes F, Pedrosa J, Fontes-Carvalho R</div>
+<div class="pub-journal">European Society of Cardiology Congress, 2025</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
 
-<!-- List MSc students supervised -->
+<div class="pub" data-type="poster">
+<div class="pub-title">Exploring the gut microbiome's role in stroke recovery: the impact of functional disability</div>
+<div class="pub-authors">Martins D, Batista AB, Centelles Lodeiro J, Diaz S, Ferreira J, Silva C, Ferreira AC, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">49th FEBS Congress, 2025</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+</div>
 
----
+<!-- ===== 2024 ===== -->
+<div class="year-group" data-year="2024">
+<span class="year-label">2024</span>
 
-## Bibliography
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.preghy.2024.101171">Cardiovascular remodelling and reverse remodelling during pregnancy and postpartum: Looking at the right side</a></div>
+<div class="pub-authors">Ferreira AF, Araújo J, Azevedo MJ, Saraiva F, Diaz SO, Sousa C, Machado AP, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Pregnancy Hypertension, 38, 101171</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.preghy.2024.101171">10.1016/j.preghy.2024.101171</a></span></div>
+</div>
 
-The following is automatically generated from the `references.bib` file:
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ijcard.2024.132676">Reply to "Approaching the ideal biomarker for right heart dysfunction"</a></div>
+<div class="pub-authors">Pintalhao M, <span class="me">Barros AS</span>, Castro-Chaves P</div>
+<div class="pub-journal">International Journal of Cardiology, 132676</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ijcard.2024.132676">10.1016/j.ijcard.2024.132676</a></span></div>
+</div>
 
-::: {#refs}
-:::
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/jcm13175081">Predicting Quality of Life in Parkinson's Disease: A Machine Learning Approach Employing Common Clinical Variables</a></div>
+<div class="pub-authors">Magano D, Taveira-Gomes T, Massano J, <span class="me">Barros AS</span></div>
+<div class="pub-journal">Journal of Clinical Medicine, 13(17), 5081</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/jcm13175081">10.3390/jcm13175081</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ijcard.2024.132358">Prognostic association of circulating relaxin-2 in acute heart failure</a></div>
+<div class="pub-authors">Pintalhao M, Vasques-Nóvoa F, <span class="me">Barros AS</span>, Lourenço P, Couto-Viana B, Leite-Moreira A, Bettencourt P, Castro-Chaves P</div>
+<div class="pub-journal">International Journal of Cardiology, 132358</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ijcard.2024.132358">10.1016/j.ijcard.2024.132358</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s10554-024-03165-0">Impact of right ventricle-pulmonary artery coupling in patients undergoing transcatheter aortic valve implantation</a></div>
+<div class="pub-authors">Mendes LF, Brandão M, Diaz SO, Almeida MC, <span class="me">Barros AS</span>, Saraiva F, Ribeiro J, et al.</div>
+<div class="pub-journal">The International Journal of Cardiovascular Imaging</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s10554-024-03165-0">10.1007/s10554-024-03165-0</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1038/s41598-024-65612-1">The extent of postpartum cardiac reverse remodeling is reflected in urine proteome</a></div>
+<div class="pub-authors">Ferreira AF, Trindade F, Azevedo MJ, Morais J, Douché T, Diaz SO, Saraiva FA, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Scientific Reports, 14(1)</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1038/s41598-024-65612-1">10.1038/s41598-024-65612-1</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/biom14060731">Unravelling the Gut Microbiome Role in Cardiovascular Disease: A Systematic Review and a Meta-Analysis</a></div>
+<div class="pub-authors">Martins D, Silva C, Ferreira AC, Dourado S, Albuquerque A, Saraiva F, Batista AB, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Biomolecules</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/biom14060731">10.3390/biom14060731</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/ijms25115693">Metabolomics and Cardiovascular Risk in Patients with Heart Failure: A Systematic Review and Meta-Analysis</a></div>
+<div class="pub-authors">Neves LS, Saraiva F, Ferreira R, Leite-Moreira A, <span class="me">Barros AS</span>, Diaz SO</div>
+<div class="pub-journal">International Journal of Molecular Sciences, 25(11), 5693</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/ijms25115693">10.3390/ijms25115693</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1002/ksa.12262">The presence of a deep lateral femoral notch sign in ACL-injured patients is associated with a steeper posterior tibial slope and higher frequency of lateral meniscal injuries</a></div>
+<div class="pub-authors">Braz JNP, Alves LFT, Ferreira FAL, <span class="me">Barros AS</span>, de Sousa AMSN, Gutierres MAP</div>
+<div class="pub-journal">Knee Surgery, Sports Traumatology, Arthroscopy</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1002/ksa.12262">10.1002/ksa.12262</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ijcard.2024.132161">Sex-based differences and risk of recurrence in patients with atrial fibrillation undergoing pulmonary vein isolation</a></div>
+<div class="pub-authors">Aguiar-Neves I, Carvalho AS, Diaz SO, Silva MR, Silva GS, Teixeira R, Fernandes SL, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">International Journal of Cardiology, 132161</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ijcard.2024.132161">10.1016/j.ijcard.2024.132161</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1152/ajpheart.00701.2023">Stretch-Induced Compliance mechanism in pregnancy-induced cardiac hypertrophy and the impact of cardiovascular risk factors</a></div>
+<div class="pub-authors">Ferreira AF, Azevedo MJ, Morais J, Almeida-Coelho J, Leite-Moreira AM, Lourenço AP, Saraiva FA, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">American Journal of Physiology-Heart and Circulatory Physiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1152/ajpheart.00701.2023">10.1152/ajpheart.00701.2023</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title">Stemless humeral prosthesis in shoulder arthroplasty: Systematic review</div>
+<div class="pub-authors"><span class="me">Barros A</span></div>
+<div class="pub-journal">Orthopaedic Spot, 1(1), 31–37</div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1002/prca.202300102">Comprehensive characterization of protein modifications using mass spectrometry and dry blood spots</a></div>
+<div class="pub-authors">Guedes S, Perpétuo L, Veloso J, Lima T, Ferreira AF, Pires I, Saraiva F, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">PROTEOMICS – Clinical Applications</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1002/prca.202300102">10.1002/prca.202300102</a></span></div>
+</div>
+
+<div class="pub" data-type="preprint">
+<div class="pub-title"><a href="https://doi.org/10.21203/rs.3.rs-4654020/v1">Machine Learning Computed Tomography Radiomics of Abdominal Adipose Tissue to Optimize Cardiovascular Risk Assessment</a></div>
+<div class="pub-authors">Mancio J, Lopes A, Sousa I, Nunes F, Xara S, Carvalho M, Ferreira W, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Preprint</div>
+<div class="pub-meta"><span class="pub-tag type-preprint">Preprint</span><span class="pub-tag doi"><a href="https://doi.org/10.21203/rs.3.rs-4654020/v1">10.21203/rs.3.rs-4654020/v1</a></span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title"><a href="https://doi.org/10.48729/pjctvs.447">Deferred percutaneous intervention versus saphenous vein graft for right coronary artery revascularization</a></div>
+<div class="pub-authors">Sousa I, Cerqueira R, Diaz S, Ferreira AF, Amorim MJ, Pinho P, Lourenço A, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">4DVISIONS23 SPCCTV, 2024</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span><span class="pub-tag doi"><a href="https://doi.org/10.48729/pjctvs.447">10.48729/pjctvs.447</a></span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">Marcadores Microbianos no Cancro Gástrico: A Microbiota como Ferramenta para Diagnóstico Precoce</div>
+<div class="pub-authors">Miranda I, Vieira-Silva S, Lodeiro-Centelles J, Lopes C, Libânio D, Ferreira AC, Silva C, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Semana Digestiva 2024</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Unveiling urine proteomic signature of heart failure with preserved ejection fraction</div>
+<div class="pub-authors">Fonseca I, Vasques-Nóvoa F, Aveiro S, Diaz S, <span class="me">Barros A</span>, Vitorino R, Leite-Moreira A, et al.</div>
+<div class="pub-journal">3rd International Meeting of the Portuguese Society of Physiology, 2024</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Impact of gut microbiome on functional recovery in stroke patients</div>
+<div class="pub-authors">Martins D, Batista AB, Centelles Lodeiro J, Diaz SO, Ferreira J, Silva C, Ferreira AC, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">2nd Conference of the Doctoral Program in Metabolism (MET-CONF 2024)</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+</div>
+
+<!-- ===== 2023 ===== -->
+<div class="year-group" data-year="2023">
+<span class="year-label">2023</span>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s10554-023-02992-x">Prognostic value of flow-status in severe aortic stenosis patients undergoing percutaneous intervention</a></div>
+<div class="pub-authors">Santos-Ferreira D, Fernandes I, Diaz SO, Guerreiro C, Saraiva F, <span class="me">Barros AS</span>, Leite-Moreira A, et al.</div>
+<div class="pub-journal">The International Journal of Cardiovascular Imaging</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s10554-023-02992-x">10.1007/s10554-023-02992-x</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1152/ajpheart.00200.2023">Cardiovascular risk factors during pregnancy impact the postpartum cardiac and vascular reverse remodeling</a></div>
+<div class="pub-authors">Ferreira AF, Azevedo MJ, Morais J, Trindade F, Saraiva FA, Diaz SO, Alves MI, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">American Journal of Physiology-Heart and Circulatory Physiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1152/ajpheart.00200.2023">10.1152/ajpheart.00200.2023</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/microorganisms11071749">The Association between Gestational Diabetes and the Microbiome: A Systematic Review and Meta-Analysis</a></div>
+<div class="pub-authors">Teixeira RA, Silva C, Ferreira AC, Martins D, Leite-Moreira A, Miranda IM, <span class="me">Barros AS</span></div>
+<div class="pub-journal">Microorganisms, 11(7), 1749</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/microorganisms11071749">10.3390/microorganisms11071749</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.repc.2023.04.014">The impact of echocardiographic indexation to evaluate cardiac reverse remodeling throughout pregnancy and postpartum</a></div>
+<div class="pub-authors">Ferreira AF, Saraiva F, Diaz S, Azevedo MJ, Sousa C, Leite-Moreira A, Sampaio-Maia B, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Revista Portuguesa de Cardiologia</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.repc.2023.04.014">10.1016/j.repc.2023.04.014</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s00266-023-03455-3">Postbariatric Abdominoplasty: A Comparative Study on Scarpa Fascia Preservation Versus Classical Technique</a></div>
+<div class="pub-authors">Monteiro IA, <span class="me">Barros AS</span>, Costa-Ferreira A</div>
+<div class="pub-journal">Aesthetic Plastic Surgery</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s00266-023-03455-3">10.1007/s00266-023-03455-3</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.pdpdt.2023.103633">Diagnostic and monitoring applications using Near infrared (NIR) Spectroscopy in cancer and other diseases</a></div>
+<div class="pub-authors">Vitorino R, <span class="me">Barros AS</span>, Guedes S, Caixeta DC, Sabino-Silva R</div>
+<div class="pub-journal">Photodiagnosis and Photodynamic Therapy, 103633</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.pdpdt.2023.103633">10.1016/j.pdpdt.2023.103633</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1080/03009742.2023.2196781">Unsupervised clustering to differentiate rheumatoid arthritis patients based on proteomic signatures</a></div>
+<div class="pub-authors">Ferreira MB, Kobayashi M, Costa RQ, Fonseca T, Brandão M, Oliveira JC, Marinho A, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Scandinavian Journal of Rheumatology, 1–8</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1080/03009742.2023.2196781">10.1080/03009742.2023.2196781</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1002/ehf2.14284">The impact of heart failure therapy in patients with mildly reduced ejection fraction: a network meta-analysis</a></div>
+<div class="pub-authors">Leite M, Sampaio F, Saraiva FA, Diaz SO, <span class="me">Barros AS</span>, Fontes-Carvalho R</div>
+<div class="pub-journal">ESC Heart Failure</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1002/ehf2.14284">10.1002/ehf2.14284</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.repc.2022.08.015">The PERInatal MYocardial Remodeling (PERIMYR) cohort study protocol</a></div>
+<div class="pub-authors">Ferreira AF, Azevedo MJ, Saraiva FA, Trindade F, <span class="me">Barros A</span>, Leite S, Proença T, et al.</div>
+<div class="pub-journal">Revista Portuguesa de Cardiologia</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.repc.2022.08.015">10.1016/j.repc.2022.08.015</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/cancers15051446">Quality Indicators Compliance and Survival Outcomes in Breast Cancer according to Age in a Certified Center</a></div>
+<div class="pub-authors">Osório F, <span class="me">Barros AS</span>, Peleteiro B, Amendoeira I, Fougo JL</div>
+<div class="pub-journal">Cancers</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/cancers15051446">10.3390/cancers15051446</a></span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">Neurologic deficit and functional independence after stroke: an exploratory analysis of urine and plasma metabolomics</div>
+<div class="pub-authors">Batista AB, Martins D, Ferreira J, Pinto J, Ferreira AC, Silva C, Castro-Chaves P, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Congresso SPCCTV 2023, Albufeira</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Searching for heart failure with preserved ejection fraction biomarkers through urine proteomics</div>
+<div class="pub-authors">Nogueira-Ferreira R, Vasques-Nóvoa F, Aveiro S, <span class="me">Barros A</span>, Diaz S, Ferreira R, Leite-Moreira A, Amado F</div>
+<div class="pub-journal">EMBO practical course targeted proteomics, 2023</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Relevance of testing proportional hazard assumption in Cox Regression – Sex differences in long-term survival after coronary artery bypass grafting</div>
+<div class="pub-authors">Sousa I, Diaz SO, Cerqueira RJ, Ferreira AF, Amorim MJ, Pinho P, Lourenço AP, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">5th Statistics on Health Decision Making: personalized medicine, 2023</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Urinary proteomics study in heart failure with preserved ejection fraction</div>
+<div class="pub-authors">Fonseca I, Vasques-Nóvoa F, Aveiro S, Ferreira R, <span class="me">Barros A</span>, Diaz S, Leite-Moreira A, Amado F, Nogueira-Ferreira R</div>
+<div class="pub-journal">IJUP 2023 – 16º Encontro de Investigação Jovem da U.Porto</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Sex impact is not constant over time after coronary artery bypass grafting</div>
+<div class="pub-authors">Sousa I, Diaz SO, Cerqueira R, Ferreira AF, Amorim MJ, Pinho P, Lourenço A, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">28º Portuguese Congress of Cardiopneumology, 2023</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Aortic valve surgery with stented VS stentless bioprosthesis in patients with infective endocarditis</div>
+<div class="pub-authors">Sousa F, Cerqueira R, Saraiva F, Silva B, Araújo J, Gonçalves C, Sousa I, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">28º Portuguese Congress of Cardiopneumology, 2023</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+</div>
+
+<!-- ===== 2022 ===== -->
+<div class="year-group" data-year="2022">
+<span class="year-label">2022</span>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/biomedicines10112943">Unveiling Human Proteome Signatures of Heart Failure with Preserved Ejection Fraction</a></div>
+<div class="pub-authors">Sebastião MJ, Almeida HV, Serra M, Hamdani N, Saraiva F, Lourenço AP, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Biomedicines, 10(11), 2943</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/biomedicines10112943">10.3390/biomedicines10112943</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/ijms232113579">Coronary Artery Disease and Aortic Valve Stenosis: A Urine Proteomics Study</a></div>
+<div class="pub-authors">Perpétuo L, <span class="me">Barros AS</span>, Dalsuco J, Nogueira-Ferreira R, Resende-Gonçalves P, Falcão-Pires I, Ferreira R, et al.</div>
+<div class="pub-journal">International Journal of Molecular Sciences, 23(21), 13579</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/ijms232113579">10.3390/ijms232113579</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1111/jce.15729">Clinical relevance of the blanking period on late recurrence after catheter ablation of atrial fibrillation</a></div>
+<div class="pub-authors">Silva MR, Silva GS, Fernandes S, Almeida J, Fonseca P, Oliveira M, Gonçalves H, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Journal of Cardiovascular Electrophysiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1111/jce.15729">10.1111/jce.15729</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.jcct.2022.10.002">Higher coronary artery calcium score is associated with increased risk of atrial fibrillation recurrence after catheter ablation</a></div>
+<div class="pub-authors">Fernandes SL, Ladeiras-Lopes R, Silva M, Silva G, Cruz I, Diaz SO, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Journal of Cardiovascular Computed Tomography</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.jcct.2022.10.002">10.1016/j.jcct.2022.10.002</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.rec.2022.11.006">Epicardial adipose tissue volume is not an independent predictor of atrial fibrillation recurrence after catheter ablation</a></div>
+<div class="pub-authors">Cruz I, Fernandes SL, Diaz SO, Saraiva F, <span class="me">Barros AS</span>, Primo J, Sampaio F, Ladeiras-Lopes R, Fontes-Carvalho R</div>
+<div class="pub-journal">Revista Española de Cardiología (English Edition)</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.rec.2022.11.006">10.1016/j.rec.2022.11.006</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.48729/PJCTVS.286">The Use of Radiomic Analysis in Cardiovascular Diseases</a></div>
+<div class="pub-authors"><span class="me">Barros AS</span></div>
+<div class="pub-journal">Portuguese Journal of Cardiac Thoracic and Vascular Surgery, 29(3)</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.48729/PJCTVS.286">10.48729/PJCTVS.286</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3389/fmolb.2022.937865">Metabolic profiling of induced acute pancreatitis and pancreatic cancer progression in a mutant Kras mouse model</a></div>
+<div class="pub-authors">Carneiro TJ, Pinto J, Serrao EM, <span class="me">Barros AS</span>, Brindle KM, Gil AM</div>
+<div class="pub-journal">Frontiers in Molecular Biosciences, 9</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3389/fmolb.2022.937865">10.3389/fmolb.2022.937865</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/ijms23147560">Tracking Prostate Carcinogenesis over Time through Urine Proteome Profiling in an Animal Model</a></div>
+<div class="pub-authors">Moreira-Pais A, Nogueira-Ferreira R, Reis S, Aveiro S, <span class="me">Barros A</span>, Melo T, Matos B, et al.</div>
+<div class="pub-journal">International Journal of Molecular Sciences</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/ijms23147560">10.3390/ijms23147560</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s10554-022-02673-1">Staging cardiac damage in patients with aortic regurgitation</a></div>
+<div class="pub-authors">Silva G, Queirós P, Silva M, Saraiva F, <span class="me">Barros A</span>, Ribeiro J, Fontes-Carvalho R, Sampaio F</div>
+<div class="pub-journal">The International Journal of Cardiovascular Imaging</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s10554-022-02673-1">10.1007/s10554-022-02673-1</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1093/ehjci/jeac092">Decoding the radiomic and proteomic phenotype of epicardial adipose tissue associated with adverse left atrial remodelling and post-operative atrial fibrillation in aortic stenosis</a></div>
+<div class="pub-authors">Mancio J, Sousa-Nunes F, Martins R, Fragao-Marques M, Conceicao G, Pessoa-Amorim G, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">European Heart Journal – Cardiovascular Imaging</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1093/ehjci/jeac092">10.1093/ehjci/jeac092</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1111/1756-185x.14323">Sex differences in circulating proteins of patients with rheumatoid arthritis: A cohort study</a></div>
+<div class="pub-authors">Ferreira MB, Fonseca T, Costa R, Marinho A, Oliveira JC, Zannad F, Rossignol P, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">International Journal of Rheumatic Diseases</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1111/1756-185x.14323">10.1111/1756-185x.14323</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/cancers14082001">Application of Proteogenomics to Urine Analysis towards the Identification of Novel Biomarkers of Prostate Cancer</a></div>
+<div class="pub-authors">Lima T, <span class="me">Barros AS</span>, Trindade F, Ferreira R, Leite-Moreira AF, Barros Silva D, Jerónimo C, et al.</div>
+<div class="pub-journal">Cancers</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/cancers14082001">10.3390/cancers14082001</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.asmr.2022.08.008">Meniscal Bone Angle Is a Strong Predictor of Anterior Cruciate Ligament Injury</a></div>
+<div class="pub-authors">Teixeira Gonçalves Alves LF, Pinto Alves TD, <span class="me">Barros AS</span>, Lopes Ferreira FA, Pereira Gutierres MA</div>
+<div class="pub-journal">Arthroscopy, Sports Medicine, and Rehabilitation</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.asmr.2022.08.008">10.1016/j.asmr.2022.08.008</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.cyto.2022.156053">Interleukin-6, infection and cardiovascular outcomes in acute heart failure: Findings from the EDIFICA registry</a></div>
+<div class="pub-authors">Vasques Nóvoa F, Pedro Ferreira J, Marques P, Sergio Neves J, Vale C, Ribeirinho Soares P, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Cytokine</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.cyto.2022.156053">10.1016/j.cyto.2022.156053</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.23736/S0021-9509.21.12012">A systematic review and meta-analysis of randomized controlled studies comparing off-pump versus on-pump coronary artery bypass grafting in the elderly</a></div>
+<div class="pub-authors">Machado RJ, Saraiva FA, Mancio J, Sousa P, Cerqueira RJ, <span class="me">Barros AS</span>, Lourenço AP, et al.</div>
+<div class="pub-journal">Journal of Cardiovascular Surgery</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.23736/S0021-9509.21.12012">10.23736/S0021-9509.21.12012</a></span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">The senolytic drug ABT-263 reverses HFpEF-associated inflammation, endothelial inflammation and fibrosis</div>
+<div class="pub-authors">Silva E, Tomé I, Vasques-Nóvoa F, Conceição G, Silva A, <span class="me">Barros AS</span>, Miranda-Silva D, et al.</div>
+<div class="pub-journal">Heart Failure 2021 (presented 2022)</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Pharmacological clearance of senescent cells partially reverses HFpEF hallmarks</div>
+<div class="pub-authors">Tomé I, Silva E, Vasques-Nóvoa F, Conceição G, Silva A, <span class="me">Barros AS</span>, Angélico-Gonçalves A, et al.</div>
+<div class="pub-journal">7th International Cell Senescence Association (ICSA) Conference, 2022</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Role of epicardial adipose tissue volume as predictor of atrial fibrillation recurrence</div>
+<div class="pub-authors">Cruz I, Fernandes S, Ladeiras-Lopes R, Diaz SO, Silva M, <span class="me">Barros AS</span>, Saraiva F, et al.</div>
+<div class="pub-journal">Congresso Português de Cardiologia, 2022</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Association of epicardial fat and coronary artery calcium score in patients with atrial fibrillation</div>
+<div class="pub-authors">Fernandes S, Cruz I, Ladeiras-Lopes R, Silva M, Silva G, Queirós P, Diaz SO, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Congresso Português de Cardiologia, 2022</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+</div>
+
+<!-- ===== 2021 ===== -->
+<div class="year-group" data-year="2021">
+<span class="year-label">2021</span>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.knee.2021.10.017">Pseudo-patella baja after total knee arthroplasty: Radiological evaluation and clinical repercussion</a></div>
+<div class="pub-authors">Dos-Santos G, Gutierres M, Leite MJ, <span class="me">Barros AS</span></div>
+<div class="pub-journal">The Knee, 33, 334–341</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.knee.2021.10.017">10.1016/j.knee.2021.10.017</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1113/EP089516">Histological and hemodynamic characterization of right ventricle in sedentary and trained rats with heart failure with preserved ejection fraction</a></div>
+<div class="pub-authors">Oliveira MI, Leite S, <span class="me">Barros A</span>, Lourenço AP, Mendes C, Schmidt C, Santos M, et al.</div>
+<div class="pub-journal">Experimental Physiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1113/EP089516">10.1113/EP089516</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/antiox10071095">Characterization of the Striatal Extracellular Matrix in a Mouse Model of Parkinson's Disease</a></div>
+<div class="pub-authors">Freitas A, Aroso M, <span class="me">Barros A</span>, Fernández M, Conde-Sousa E, Leite M, Carvalho ED, et al.</div>
+<div class="pub-journal">Antioxidants, 10(7), 1095</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/antiox10071095">10.3390/antiox10071095</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.23736/s0021-9509.21.11826-9">Multiple versus single arterial grafting in the elderly: a meta-analysis of randomized controlled trials and propensity score studies</a></div>
+<div class="pub-authors">Saraiva FA, Moreira R, Cerqueira RJ, Mancio J, <span class="me">Barros AS</span>, Lourenço AP, Leite-Moreira AF</div>
+<div class="pub-journal">The Journal of Cardiovascular Surgery</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.23736/s0021-9509.21.11826-9">10.23736/s0021-9509.21.11826-9</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1002/bit.27836">Assessing the influence of perfusion on cardiac microtissue maturation: a heart-on-chip platform embedding peristaltic pump capabilities</a></div>
+<div class="pub-authors">Cruz-Moreira D, Visone R, Vasques-Nóvoa F, <span class="me">Barros AS</span>, Leite-Moreira A, Redaelli A, Moretti M, Rasponi M</div>
+<div class="pub-journal">Biotechnology and Bioengineering</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1002/bit.27836">10.1002/bit.27836</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/ijms22115940">Digging the Biomarker Potential of Urine Peptidome: From Amino Acids Properties to Proteases</a></div>
+<div class="pub-authors">Trindade F, <span class="me">Barros AS</span>, Silva J, Vlahou A, Falcão-Pires I, Guedes S, Vitorino C, et al.</div>
+<div class="pub-journal">International Journal of Molecular Sciences, 22(11), 5940</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/ijms22115940">10.3390/ijms22115940</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1080/00365521.2021.1902560">Gastric microbiome profile throughout gastric carcinogenesis: beyond helicobacter</a></div>
+<div class="pub-authors">Pimentel-Nunes P, <span class="me">Barros A</span>, Pita I, Miranda I, Conceição G, Borges-Canha M, Leite-Moreira AF, Libânio D, Dinis-Ribeiro M</div>
+<div class="pub-journal">Scandinavian Journal of Gastroenterology, 1–9</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1080/00365521.2021.1902560">10.1080/00365521.2021.1902560</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.cpcardiol.2021.100860">Urocortin-2 in acute heart failure: role as a marker of volume overload and pulmonary hypertension</a></div>
+<div class="pub-authors">Pintalhao M, Maia-Rocha C, Castro-Chaves P, Adão R, <span class="me">Barros AS</span>, Martins RC, Leite-Moreira A, Bettencourt P, Bras-Silva C</div>
+<div class="pub-journal">Current Problems in Cardiology, 100860</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.cpcardiol.2021.100860">10.1016/j.cpcardiol.2021.100860</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ijcard.2021.02.088">Serum microRNAs and antifibrotic response to eplerenone in acute myocardial infarction complicated by systolic dysfunction</a></div>
+<div class="pub-authors">Stienen S, Ferreira JP, Bär C, Thum T, <span class="me">Barros A</span>, Pitt B, Girerd N, Rossignol P, Zannad F</div>
+<div class="pub-journal">International Journal of Cardiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ijcard.2021.02.088">10.1016/j.ijcard.2021.02.088</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.36660/abc.20190577">Alterações da Rigidez Arterial em Pacientes com Estenose Aórtica Grave Submetidos à Cirurgia de Troca Valvar</a></div>
+<div class="pub-authors">Raimundo R, Saraiva F, Moreira R, Moreira S, Ferreira AF, Cerqueira RJ, Amorim MJ, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Arquivos Brasileiros de Cardiologia, 116(3), 475–482</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.36660/abc.20190577">10.36660/abc.20190577</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.3390/proteomes9010008">Exosome-Derived Mediators as Potential Biomarkers for Cardiovascular Diseases: A Network Approach</a></div>
+<div class="pub-authors">Moreira-Costa L, <span class="me">Barros AS</span>, Lourenço AP, Leite-Moreira AF, Nogueira-Ferreira R, Thongboonkerd V, Vitorino R</div>
+<div class="pub-journal">Proteomes, 9(1), 8</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.3390/proteomes9010008">10.3390/proteomes9010008</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.4048/jbc.2021.24.e45">Frailty-Independent Undertreatment Negative Impact on Survival in Older Patients with Breast Cancer</a></div>
+<div class="pub-authors">Osório F, <span class="me">Barros AS</span>, Peleteiro B, Barradas AR, Urbano J, Fougo JL, Leite-Moreira A</div>
+<div class="pub-journal">Journal of Breast Cancer, 24</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.4048/jbc.2021.24.e45">10.4048/jbc.2021.24.e45</a></span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">Life Expectancy of Patients on Pre-operative Renal Replacement Therapy after CABG compared with General and Haemodialysis Population</div>
+<div class="pub-authors">Moreira R, Saraiva F, Cerqueira RJ, Ferreira AF, Amorim M, <span class="me">Barros A</span>, Pinho P, Lourenço AP, Leite-Moreira AF</div>
+<div class="pub-journal">SPCCTV 4D Visions Congress 21, 2021</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">Comparing one sample's observed survival with the expected in the general population or in specific high-risk subgroups</div>
+<div class="pub-authors">Moreira R, Saraiva F, Cerqueira RJ, Ferreira AF, Amorim M, <span class="me">Barros A</span>, Pinho P, Lourenço AP, Leite-Moreira AF</div>
+<div class="pub-journal">3rd Statistics on Health Decision Making: Public Health, 2021</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">Coronary Artery Bypass Grafting Surgery in Patients on Pre-operative Renal Replacement Therapy: safety and long-term survival</div>
+<div class="pub-authors">Moreira R, Saraiva F, Cerqueira RJ, Ferreira AF, Amorim M, <span class="me">Barros A</span>, Pinho P, Lourenço AP, Leite-Moreira AF</div>
+<div class="pub-journal">Congresso Português de Cardiologia 2021</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Proteomic analysis as a tool to identify key differentially expressed proteins during human sperm cryopreservation</div>
+<div class="pub-authors">Corda PO, Silva JV, Pereira S, <span class="me">Barros A</span>, Alves MG, Fardilha M</div>
+<div class="pub-journal">XXI SPB: National Congress of Biochemistry, 2021</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">Urine proteomics to study sex-related differences in heart failure</div>
+<div class="pub-authors">Ferreira C, Santos M, Ferreira R, Schmidt C, <span class="me">Barros A</span>, Vasques-Nóvoa F, Leite-Moreira A, Amado F, Nogueira-Ferreira R</div>
+<div class="pub-journal">XIII Encontro Nacional de Estudantes de Bioquímica, 2021</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+</div>
+
+<!-- ===== 2020 ===== -->
+<div class="year-group" data-year="2020">
+<span class="year-label">2020</span>
+
+<div class="pub" data-type="chapter">
+<div class="pub-title"><a href="https://doi.org/10.1016/b978-0-12-801238-3.11598-3">Lipidomics in Cardiovascular Diseases</a></div>
+<div class="pub-authors">Reis A, Sanchez-Quesada JL, Diaz SO, de Freitas V, Leite-Moreira A, <span class="me">Barros AS</span></div>
+<div class="pub-journal">Reference Module in Biomedical Sciences, Elsevier, 454–467</div>
+<div class="pub-meta"><span class="pub-tag type-chapter">Chapter</span><span class="pub-tag doi"><a href="https://doi.org/10.1016/b978-0-12-801238-3.11598-3">10.1016/b978-0-12-801238-3.11598-3</a></span></div>
+</div>
+
+<div class="pub" data-type="chapter">
+<div class="pub-title"><a href="https://doi.org/10.1016/b978-0-12-801238-3.11648-4">Clinical Research in Cardiovascular Disease Using Metabolomics</a></div>
+<div class="pub-authors"><span class="me">Barros A</span></div>
+<div class="pub-journal">Reference Module in Biomedical Sciences, Elsevier</div>
+<div class="pub-meta"><span class="pub-tag type-chapter">Chapter</span><span class="pub-tag doi"><a href="https://doi.org/10.1016/b978-0-12-801238-3.11648-4">10.1016/b978-0-12-801238-3.11648-4</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.repc.2020.03.017">Influence of EPICardial adipose tissue in HEART diseases (EPICHEART) study: Protocol for a translational study</a></div>
+<div class="pub-authors">Mancio J, <span class="me">Barros AS</span>, Conceicão G, Santa C, Pessoa-Amorim G, Bartosch C, Fragao-Marques M, et al.</div>
+<div class="pub-journal">Revista Portuguesa de Cardiologia</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.repc.2020.03.017">10.1016/j.repc.2020.03.017</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ejim.2020.11.002">Prevalence, risk factors and proteomic bioprofiles associated with heart failure in rheumatoid arthritis: The RA-HF study</a></div>
+<div class="pub-authors">Ferreira MB, Fonseca T, Costa R, Marinho A, Carvalho HC, Oliveira JC, Zannad F, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">European Journal of Internal Medicine</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ejim.2020.11.002">10.1016/j.ejim.2020.11.002</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.aca.2020.10.037">Exploratory analysis of large-scale lipidome in large cohorts: are we any closer of finding lipid-based markers suitable for CVD risk stratification?</a></div>
+<div class="pub-authors">Diaz SO, Sánchez-Quesada JL, de Freitas V, Leite-Moreira A, <span class="me">Barros AS</span>, Reis A</div>
+<div class="pub-journal">Analytica Chimica Acta</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.aca.2020.10.037">10.1016/j.aca.2020.10.037</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s00246-020-02319-w">Risk Factors for Recoarctation and Mortality in Infants Submitted to Aortic Coarctation Repair: A Systematic Review</a></div>
+<div class="pub-authors">Dias MQ, <span class="me">Barros A</span>, Leite-Moreira A, Miranda JO</div>
+<div class="pub-journal">Pediatric Cardiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s00246-020-02319-w">10.1007/s00246-020-02319-w</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.atherosclerosis.2019.11.015">Epicardial adipose tissue volume and annexin A2/fetuin-A signalling are linked to coronary calcification in advanced coronary artery disease</a></div>
+<div class="pub-authors">Mancio J, <span class="me">Barros AS</span>, Conceicao G, Pessoa-Amorim G, Santa C, Bartosch C, Ferreira W, et al.</div>
+<div class="pub-journal">Atherosclerosis, 292, 75–83</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.atherosclerosis.2019.11.015">10.1016/j.atherosclerosis.2019.11.015</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ijcard.2020.08.001">Multiple versus single arterial grafting in coronary artery bypass grafting: A meta-analysis of randomized controlled trials and propensity score studies</a></div>
+<div class="pub-authors">Saraiva FA, Leite-Moreira JP, <span class="me">Barros AS</span>, Lourenço AP, Benedetto U, Leite-Moreira AF</div>
+<div class="pub-journal">International Journal of Cardiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ijcard.2020.08.001">10.1016/j.ijcard.2020.08.001</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.23736/s0021-9509.20.11306-5">Early dual antiplatelet therapy versus aspirin monotherapy after coronary artery bypass surgery: survival and safety outcomes</a></div>
+<div class="pub-authors">Rocha Gomes JN, Saraiva FA, Cerqueira RJ, Moreira R, Ferreira AF, <span class="me">Barros AS</span>, Amorim MJ, et al.</div>
+<div class="pub-journal">Journal of Cardiovascular Surgery</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.23736/s0021-9509.20.11306-5">10.23736/s0021-9509.20.11306-5</a></span></div>
+</div>
+</div>
+
+<!-- ===== 2019 ===== -->
+<div class="year-group" data-year="2019">
+<span class="year-label">2019</span>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s00392-019-01500-3">Determinants of anti-fibrotic response to mineralocorticoid receptor antagonist therapy: insights from EPHESUS and REMINDER trials</a></div>
+<div class="pub-authors"><span class="me">Barros A</span>, et al.</div>
+<div class="pub-journal">Clinical Research in Cardiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s00392-019-01500-3">10.1007/s00392-019-01500-3</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.8b00877">Urine Nuclear Magnetic Resonance (NMR) Metabolomics in Age-Related Macular Degeneration</a></div>
+<div class="pub-authors">Lains I, Duarte D, <span class="me">Barros AS</span>, Martins AS, Carneiro TJ, Gil JQ, Miller JB, et al.</div>
+<div class="pub-journal">Journal of Proteome Research</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/acs.jproteome.8b00877">10.1021/acs.jproteome.8b00877</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1002/ijc.32252">FGF2 Induces Breast Cancer Growth through Ligand-Independent Activation and Recruitment of ERα and PRBδ4 Isoform to MYC Regulatory Sequences</a></div>
+<div class="pub-authors">Giulianelli S, Riggio M, Guillardoy T, Perez Pinero C, Gorostiaga MA, Sequeira G, Pataccini G, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">International Journal of Cancer</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1002/ijc.32252">10.1002/ijc.32252</a></span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title"><a href="https://doi.org/10.3389/978-2-88945-675-8">Delivery of exosomes derived from 3D-cultured human neonatal mesenchymal stromal cells improves cutaneous wound healing</a></div>
+<div class="pub-authors">Camões SP, Dias CT, Rodrigues JS, Serras AS, Gaspar MM, Simões S, Ferreira R, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">11th International Meeting of the Portuguese Society for Stem Cells and Cell Therapies, 2019</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span><span class="pub-tag doi"><a href="https://doi.org/10.3389/978-2-88945-675-8">10.3389/978-2-88945-675-8</a></span></div>
+</div>
+</div>
+
+<!-- ===== 2018 ===== -->
+<div class="year-group" data-year="2018">
+<span class="year-label">2018</span>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ijcard.2018.05.028">Survival after bilateral internal mammary artery in coronary artery bypass grafting: Are women at risk?</a></div>
+<div class="pub-authors">Saraiva FA, Girerd N, Cerqueira RJ, Ferreira JP, Vilas-Boas N, Pinho P, <span class="me">Barros A</span>, et al.</div>
+<div class="pub-journal">International Journal of Cardiology, 270, 89–95</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ijcard.2018.05.028">10.1016/j.ijcard.2018.05.028</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1002/pmic.201800187">Reviewing Mechanistic Peptidomics in Body Fluids Focusing on Proteases</a></div>
+<div class="pub-authors">Magalhaes B, Trindade F, <span class="me">Barros AS</span>, Klein J, Amado F, Ferreira R, Vitorino R</div>
+<div class="pub-journal">Proteomics, 18(18)</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1002/pmic.201800187">10.1002/pmic.201800187</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s00392-018-1373-5">Collagen biomarker bioprofiles predicting the antifibrotic response to eplerenone in myocardial infarction: findings from the REMINDER trial</a></div>
+<div class="pub-authors">Ferreira JP, <span class="me">Barros A</span>, Pitt B, Montalescot G, de Sa EL, Hamm CW, Flather M, et al.</div>
+<div class="pub-journal">Clinical Research in Cardiology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s00392-018-1373-5">10.1007/s00392-018-1373-5</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/ACS.JPROTEOME.8B00354">Intestinal Microbial and Metabolic Profiling of Mice Fed with High-Glucose and High-Fructose Diets</a></div>
+<div class="pub-authors">Carneiro T, Martins FO, Gil AM, Jones JG, Duarte D, Pinto J, Gonçalves T, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Journal of Proteome Research</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/ACS.JPROTEOME.8B00354">10.1021/ACS.JPROTEOME.8B00354</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.7b00878">Assessing Exposome Effects on Pregnancy through Urine Metabolomics of a Portuguese (Estarreja) Cohort</a></div>
+<div class="pub-authors">Duarte D, Pinto J, Gil AM, <span class="me">Barros AS</span></div>
+<div class="pub-journal">Journal of Proteome Research</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/acs.jproteome.7b00878">10.1021/acs.jproteome.7b00878</a></span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">Development of a Scoring System to Assess Potential Biomarkers for Atrial Fibrillation</div>
+<div class="pub-authors">Magalhães B, Trindade F, Rocha M, <span class="me">Barros AS</span>, Vitorino R</div>
+<div class="pub-journal">I NOTES congress – Novel Therapeutic Strategies for Noncommunicable Diseases, Porto, 2018</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+
+<div class="pub" data-type="abstract">
+<div class="pub-title">Serum Urocortin-2 is Associated With Volume Overload and Pulmonary Hypertension in Acute Heart Failure</div>
+<div class="pub-authors">Pintalhao M, Maia Rocha C, Martins R, Adao R, <span class="me">Barros A</span>, Leite Moreira A, Bettencourt P, Castro Chaves P, Bras Silva C</div>
+<div class="pub-journal">2018</div>
+<div class="pub-meta"><span class="pub-tag type-abstract">Abstract</span></div>
+</div>
+</div>
+
+<!-- ===== 2017 ===== -->
+<div class="year-group" data-year="2017">
+<span class="year-label">2017</span>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ijcard.2017.09.178">Gender differences in the association of epicardial adipose tissue and coronary artery calcification: EPICHEART study</a></div>
+<div class="pub-authors">Mancio J, Pinheiro M, Ferreira W, Carvalho M, <span class="me">Barros A</span>, Ferreira N, Vouga L, et al.</div>
+<div class="pub-journal">International Journal of Cardiology, 249, 419–425</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ijcard.2017.09.178">10.1016/j.ijcard.2017.09.178</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.foodchem.2017.02.034">Quinones as Strecker degradation reagents in wine oxidation processes</a></div>
+<div class="pub-authors">Oliveira CM, Santos SAO, Silvestre AJD, <span class="me">Barros AS</span>, Ferreira ACS, Silva AMS, et al.</div>
+<div class="pub-journal">Food Chemistry, 228, 618–624</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.foodchem.2017.02.034">10.1016/j.foodchem.2017.02.034</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1093/toxsci/kfx142">Metabolism Modulation in Different Organs by Silver Nanoparticles: An NMR Metabolomics Study of a Mouse Model</a></div>
+<div class="pub-authors">Jarak I, Carrola J, <span class="me">Barros AS</span>, Gil AM, Pereira ML, Corvo ML, Duarte IF</div>
+<div class="pub-journal">Toxicological Sciences, 159(2), 422–435</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1093/toxsci/kfx142">10.1093/toxsci/kfx142</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1186/s13098-017-0285-2">Association of body mass index and visceral fat with aortic valve calcification and mortality after transcatheter aortic valve replacement</a></div>
+<div class="pub-authors">Mancio J, Fonseca P, Figueiredo B, Ferreira W, Carvalho M, Ferreira N, Braga P, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">Diabetology &amp; Metabolic Syndrome, 9</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1186/s13098-017-0285-2">10.1186/s13098-017-0285-2</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1371/JOURNAL.PONE.0177749">Human plasma metabolomics in age-related macular degeneration (AMD) using nuclear magnetic resonance spectroscopy</a></div>
+<div class="pub-authors">Gil AM, Husain D, Silva R, Murta JN, Carreira IM, Vavvas D, Cachulo ML, <span class="me">Barros AS</span>, et al.</div>
+<div class="pub-journal">PLOS ONE</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1371/JOURNAL.PONE.0177749">10.1371/JOURNAL.PONE.0177749</a></span></div>
+</div>
+</div>
+
+<!-- ===== 2016 & Earlier ===== -->
+<div class="year-group" data-year="2016">
+<span class="year-label">≤ 2016</span>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.5b00977">Newborn Urinary Metabolic Signatures of Prematurity and Other Disorders: A Case Control Study (2016)</a></div>
+<div class="pub-authors">Diaz SO, Pinto J, <span class="me">Barros AS</span>, Morais E, Duarte D, Negrão F, Pita C, et al.</div>
+<div class="pub-journal">Journal of Proteome Research</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/acs.jproteome.5b00977">10.1021/acs.jproteome.5b00977</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1038/srep37275">Nuclear Magnetic Resonance metabolomics reveals an excretory metabolic signature of renal cell carcinoma (2016)</a></div>
+<div class="pub-authors">Monteiro MS, <span class="me">Barros AS</span>, Pinto J, Carvalho M, Pires-Luís AS, Henrique R, Jerónimo C, et al.</div>
+<div class="pub-journal">Scientific Reports, 6</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1038/srep37275">10.1038/srep37275</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1007/s11306-016-1046-1">Metabolic profiling of maternal urine can aid clinical management of gestational diabetes mellitus (2016)</a></div>
+<div class="pub-authors">Pinto J, Diaz SO, Aguiar E, Duarte D, <span class="me">Barros AS</span>, Galhano E, Pita C, et al.</div>
+<div class="pub-journal">Metabolomics, 12(6)</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1007/s11306-016-1046-1">10.1007/s11306-016-1046-1</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1093/CARCIN/BGU226">NMR metabolomics of human lung tumours reveals distinct metabolic signatures for adenocarcinoma and squamous cell carcinoma (2015)</a></div>
+<div class="pub-authors">Rocha CM, <span class="me">Barros AS</span>, Goodfellow BJ, Carreira IM, Gomes A, Sousa V, Bernardo J, et al.</div>
+<div class="pub-journal">Carcinogenesis, 36(1), 68–75</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1093/CARCIN/BGU226">10.1093/CARCIN/BGU226</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/pr5011982">Following healthy pregnancy by NMR metabolomics of plasma and correlation to urine (2015)</a></div>
+<div class="pub-authors">Pinto J, <span class="me">Barros AS</span>, Domingues MRM, Goodfellow BJ, Galhano E, Pita C, Almeida MC, Carreira IM, Gil AM</div>
+<div class="pub-journal">Journal of Proteome Research, 14(2), 1263–74</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/pr5011982">10.1021/pr5011982</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/acs.jproteome.5b00260">Prediction of gestational diabetes through NMR metabolomics of maternal blood (2015)</a></div>
+<div class="pub-authors">Pinto J, Almeida LM, Martins AS, Duarte D, <span class="me">Barros AS</span>, Galhano E, Pita C, et al.</div>
+<div class="pub-journal">Journal of Proteome Research, 14(6), 2696–2706</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/acs.jproteome.5b00260">10.1021/acs.jproteome.5b00260</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.ajog.2015.07.032">Impact of fetal chromosomal disorders on maternal blood metabolome: Toward new biomarkers? (2015)</a></div>
+<div class="pub-authors">Pinto J, Almeida LM, Martins AS, Duarte D, Domingues MRM, <span class="me">Barros AS</span>, Galhano E, et al.</div>
+<div class="pub-journal">American Journal of Obstetrics and Gynecology</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.ajog.2015.07.032">10.1016/j.ajog.2015.07.032</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.trsl.2013.09.005">Pursuing type 1 diabetes mellitus and related complications through urinary proteomics (2014)</a></div>
+<div class="pub-authors">Caseiro A, <span class="me">Barros A</span>, Ferreira R, Padrão A, Aroso M, Quintaneiro C, Pereira A, et al.</div>
+<div class="pub-journal">Translational Research, 163(3), 188–199</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.trsl.2013.09.005">10.1016/j.trsl.2013.09.005</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1016/j.jaci.2013.11.004">Urinary metabolomic changes as a predictive biomarker of asthma exacerbation (2014)</a></div>
+<div class="pub-authors">Loureiro CC, Duarte IF, Gomes J, Carrola J, <span class="me">Barros AS</span>, Gil AM, Bousquet J, Bom AT, Rocha SM</div>
+<div class="pub-journal">Journal of Allergy and Clinical Immunology, 133(1), 261–263</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1016/j.jaci.2013.11.004">10.1016/j.jaci.2013.11.004</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/pr4002355">Second Trimester Maternal Urine for the Diagnosis of Trisomy 21 and Prediction of Poor Pregnancy Outcomes (2013)</a></div>
+<div class="pub-authors">Diaz SO, <span class="me">Barros AS</span>, Goodfellow BJ, Duarte IF, Galhano E, Pita C, Almeida MD, Carreira IM, Gil AM</div>
+<div class="pub-journal">Journal of Proteome Research, 12(6), 2946–2957</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/pr4002355">10.1021/pr4002355</a></span></div>
+</div>
+
+<div class="pub" data-type="journal">
+<div class="pub-title"><a href="https://doi.org/10.1021/pr301022e">Following Healthy Pregnancy by NMR Metabolic Profiling of Human Urine (2013)</a></div>
+<div class="pub-authors">Diaz SO, <span class="me">Barros AS</span>, Goodfellow BJ, Duarte IF, Carreira IM, Galhano E, Pita C, Almeida MC, Gil AM</div>
+<div class="pub-journal">Journal of Proteome Research, 12(2), 969–979</div>
+<div class="pub-meta"><span class="pub-tag doi"><a href="https://doi.org/10.1021/pr301022e">10.1021/pr301022e</a></span></div>
+</div>
+
+<div class="pub" data-type="book">
+<div class="pub-title"><a href="https://doi.org/10.1002/9780470277805.ch2">Methodologies for Improved Quality Control Assessment of Food Products (2007)</a></div>
+<div class="pub-authors">Coimbra MA, Rocha SM, <span class="me">Barros AS</span></div>
+<div class="pub-journal">Book</div>
+<div class="pub-meta"><span class="pub-tag type-book">Book</span><span class="pub-tag doi"><a href="https://doi.org/10.1002/9780470277805.ch2">10.1002/9780470277805.ch2</a></span></div>
+</div>
+
+
+<div class="pub" data-type="confpaper">
+<div class="pub-title"><a href="https://doi.org/10.1016/J.CHROMA.2006.03.107">Rapid tool for distinction of wines based on the global volatile signature</a></div>
+<div class="pub-authors">Rocha SM, Coutinho P, <span class="me">Barros A</span>, et al.</div>
+<div class="pub-journal">Conference paper, 2006</div>
+<div class="pub-meta"><span class="pub-tag type-confpaper">Conf. Paper</span><span class="pub-tag doi"><a href="https://doi.org/10.1016/J.CHROMA.2006.03.107">10.1016/J.CHROMA.2006.03.107</a></span></div>
+</div>
+
+<div class="pub" data-type="confpaper">
+<div class="pub-title"><a href="https://doi.org/10.1016/S0144-8617(00)00320-9">Use of FT-IR spectroscopy to follow the effect of processing in cell wall polysaccharide extracts of a sun-dried pear</a></div>
+<div class="pub-authors">Ferreira D, <span class="me">Barros A</span>, Coimbra MA, et al.</div>
+<div class="pub-journal">Conference paper, 2001</div>
+<div class="pub-meta"><span class="pub-tag type-confpaper">Conf. Paper</span><span class="pub-tag doi"><a href="https://doi.org/10.1016/S0144-8617(00)00320-9">10.1016/S0144-8617(00)00320-9</a></span></div>
+</div>
+
+<div class="pub" data-type="poster">
+<div class="pub-title">New trends in quality control of vegetable matrices by HS-SPME</div>
+<div class="pub-authors">Petronilho S, Coelho E, Reis S, <span class="me">Barros AS</span>, Delgadillo I, Coimbra MA, Rocha SM</div>
+<div class="pub-journal">XII Latin American Congress of Chromatography and Related Techniques, 2008</div>
+<div class="pub-meta"><span class="pub-tag type-poster">Poster</span></div>
+</div>
+
+<p style="font-size: 0.85rem; color: var(--muted); margin-top: 1.5rem; padding: 1rem; background: var(--tag-bg); border-radius: 6px;">
+  <strong>Note:</strong> This page shows selected highlights from 2016 and earlier. For the complete list of 177+ publications, see
+  <a href="https://orcid.org/0000-0002-9103-5852" style="color: var(--accent);">ORCID</a> ·
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=56130256800" style="color: var(--accent);">Scopus</a> ·
+  <a href="https://scholar.google.com/citations?user=nbFmvSwAAAAJ" style="color: var(--accent);">Google Scholar</a>
+</p>
+
+</div><!-- /publications -->
+</div><!-- /container -->
+
+<script>
+  const pubs = document.querySelectorAll('.pub');
+  const yearGroups = document.querySelectorAll('.year-group');
+  const searchInput = document.getElementById('search');
+  const countEl = document.getElementById('count');
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  let activeFilter = 'all';
+
+  function update() {
+    const q = searchInput.value.toLowerCase().trim();
+    let visible = 0;
+
+    pubs.forEach(pub => {
+      const text = pub.textContent.toLowerCase();
+      const type = pub.dataset.type;
+      const matchSearch = !q || text.includes(q);
+      const matchFilter = activeFilter === 'all' || type === activeFilter;
+      pub.classList.toggle('hidden', !(matchSearch && matchFilter));
+      if (matchSearch && matchFilter) visible++;
+    });
+
+    yearGroups.forEach(yg => {
+      const hasPubs = yg.querySelectorAll('.pub:not(.hidden)').length > 0;
+      yg.classList.toggle('hidden', !hasPubs);
+    });
+
+    countEl.textContent = visible + ' publication' + (visible !== 1 ? 's' : '');
+  }
+
+  searchInput.addEventListener('input', update);
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.filter;
+      update();
+    });
+  });
+
+  update();
+</script>
+</div>
+</div>
+
+<script>
+
+  const pubs = document.querySelectorAll('.pub');
+  const yearGroups = document.querySelectorAll('.year-group');
+  const searchInput = document.getElementById('search');
+  const countEl = document.getElementById('count');
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  let activeFilter = 'all';
+
+  function update() {
+    const q = searchInput.value.toLowerCase().trim();
+    let visible = 0;
+
+    pubs.forEach(pub => {
+      const text = pub.textContent.toLowerCase();
+      const type = pub.dataset.type;
+      const matchSearch = !q || text.includes(q);
+      const matchFilter = activeFilter === 'all' || type === activeFilter;
+      pub.classList.toggle('hidden', !(matchSearch && matchFilter));
+      if (matchSearch && matchFilter) visible++;
+    });
+
+    yearGroups.forEach(yg => {
+      const hasPubs = yg.querySelectorAll('.pub:not(.hidden)').length > 0;
+      yg.classList.toggle('hidden', !hasPubs);
+    });
+
+    countEl.textContent = visible + ' publication' + (visible !== 1 ? 's' : '');
+  }
+
+  searchInput.addEventListener('input', update);
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.filter;
+      update();
+    });
+  });
+
+  update();
+
+</script>
+```

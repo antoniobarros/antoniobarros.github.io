@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap');
+
+
+  .pubs-widget {
+    --bg: #fafaf8;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #2c5282;
+    --accent-light: #ebf2fa;
+    --border: #e2e2de;
+    --tag-bg: #f0efe9;
+    --year-bg: #2c5282;
+    --year-text: #fff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  
+
+  .pubs-widget {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .pubs-widget .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+
+  .pubs-widget header {
+    margin-bottom: 2.5rem;
+    border-bottom: 2px solid var(--text);
+    padding-bottom: 1.5rem;
+  }
+
+  .pubs-widget header h1 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.3rem;
+  }
+
+  .pubs-widget header .subtitle {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .pubs-widget header .metrics {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .pubs-widget header .metric {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+  }
+
+  .pubs-widget header .metric-value {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--accent);
+  }
+
+  .pubs-widget header .metric-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Controls */
+  .pubs-widget .controls {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .pubs-widget .search-box {
+    flex: 1;
+    min-width: 220px;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    background: #fff;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .pubs-widget .search-box:focus {
+    border-color: var(--accent);
+  }
+
+  .pubs-widget .filter-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--muted);
+  }
+
+  .pubs-widget .filter-btn:hover, .pubs-widget .filter-btn.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  .pubs-widget .result-count {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-left: auto;
+  }
+
+  /* Year groups */
+  .pubs-widget .year-group {
+    margin-bottom: 2rem;
+  }
+
+  .pubs-widget .year-label {
+    display: inline-block;
+    background: var(--year-bg);
+    color: var(--year-text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: 400;
+    padding: 0.2rem 0.7rem;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+    position: sticky;
+    top: 0.5rem;
+    z-index: 5;
+  }
+
+  /* Publication item */
+  .pubs-widget .pub {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+  }
+
+  .pub:last-child { border-bottom: none; }
+
+  .pubs-widget .pub:hover {
+    background: rgba(44, 82, 130, 0.02);
+  }
+
+  .pubs-widget .pub-title {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.45;
+    margin-bottom: 0.25rem;
+  }
+
+  .pubs-widget .pub-title a {
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .pubs-widget .pub-title a:hover {
+    color: var(--accent);
+  }
+
+  .pubs-widget .pub-authors {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+  }
+
+  .pubs-widget .pub-authors .me {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .pubs-widget .pub-journal {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  .pubs-widget .pub-meta {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.35rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .pubs-widget .pub-tag {
+    font-size: 0.72rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    background: var(--tag-bg);
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .pubs-widget .pub-tag.doi a {
+    color: var(--accent);
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+  }
+
+  .pubs-widget .pub-tag.doi a:hover {
+    text-decoration: underline;
+  }
+
+  .pubs-widget .pub-tag.type-book { background: #fef3c7; color: #92400e; }
+  .pubs-widget .pub-tag.type-chapter { background: #e0e7ff; color: #3730a3; }
+  .pubs-widget .pub-tag.type-preprint { background: #fce7f3; color: #9d174d; }
+
+  
+  .pubs-widget .pub-tag.type-abstract { background: #d1fae5; color: #065f46; }
+  .pubs-widget .pub-tag.type-poster { background: #ede9fe; color: #5b21b6; }
+  .pubs-widget .pub-tag.type-confpaper { background: #ffedd5; color: #9a3412; }
+
+  .pubs-widget .hidden { display: none !important; }
+
+  @media (max-width: 600px) {
+    .pubs-widget .container { padding: 2rem 1rem; }
+    .pubs-widget header h1 { font-size: 1.7rem; }
+    .pubs-widget header .metrics { gap: 1rem; }
+    .pubs-widget .controls { flex-direction: column; }
+    .pubs-widget .result-count { margin-left: 0; }
+  }
+
+
+/* Hide Quarto's auto-generated title since we have a custom header */
+.pubs-widget ~ #title-block-header,
+#title-block-header { display: none; }
