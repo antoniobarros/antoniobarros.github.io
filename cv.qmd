@@ -6,36 +6,64 @@ title: "Curriculum Vitae"
 
 ## Academic Positions
 
-**Assistant Researcher** | Faculty of Medicine, University of Porto | 2017–Present
+**Assistant Researcher** | Faculty of Medicine, University of Porto (FMUP) / RISE-Health | 2017–Present
 
-- Research in cardiovascular biostatistics and machine learning
+- Research in cardiovascular biostatistics, machine learning, and AI in medicine
 - Teaching biostatistics at MSc and PhD levels
-- Supervision of graduate students
+- Supervision and co-supervision of graduate students
 
-**Assistant Researcher** | UA | 2003–2016
+**Assistant Researcher** | University of Aveiro (UA) / QOPNA | 2003–2016
 
-- Multivariate analysis / Omics
-- Proteomics and Metabolomics
+- Multivariate analysis, chemometrics, metabolomics, and proteomics
 
 ---
 
 ## Research Grants & Funding
 
-| Year | Project | Funder | Role |
-|------|---------|--------|------|
-| 2021 | CardioNIR | FCT | PI |
-| 2025 | IBERIA | Compete | PI | 
+Participated in **27 research projects**, including as **PI/Co-PI in 3** funded projects, one European Horizon-funded project, and two clinical trials.
+
+### As Principal Investigator
+
+| Period | Project | Grant Ref. | Funder |
+|--------|---------|-----------|--------|
+| 2024–2028 | Early Cardiovascular, Metabolic and Histological Changes Identified in Children Born from Pregnant Women with Risk Factors | `UI/BD/154955/2023` | FCT |
+| 2022–2025 | CardioNIR: CARDIOvascular Near-InfraRed spectroscopy probing | `PTDC/EMD-EMD/3822/2021` | FCT |
+| 2012 | The omics challenge: chemometric methods to extract information from biosystems | `PTDC/QUI-BIQ/119881/2010` | FCT |
+
+### As Researcher / Invited Scientist
+
+| Period | Project | Role | Funder | Status |
+|--------|---------|------|--------|--------|
+| 2023–2024 | Impacto do sexo na (dis)função endotelial para o tratamento da insuficiência car… | Researcher | FCT | Ongoing |
+| 2023–Present | VASCUL-AID – Developing Trustworthy AI-Driven Tools to Predict Vascular Disease … | Research Fellow | Horizon Europe | Ongoing |
+| 2023–Present | Pacto da Bioeconomia Azul | Researcher | IAPMEI/COMPETE | Ongoing |
+| 2022–Present | EVleage: Are extracellular vesicles the missing link between aging and HFpEF? | Researcher | FCT | Ongoing |
+| 2021–Present | Rede de Investigação em Saúde: do Laboratório à Saúde Comunitária (RISE-Health) | Researcher | FCT | Ongoing |
+| 2021–2024 | SOGALDI: Spironolactone, dapagliflozin or both for HFpEF (crossover RCT) | Researcher | AstraZeneca | Ongoing |
+| 2021–2023 | Cardiovascular R&D Center | Researcher | FCT | Ongoing |
+| 2021–2023 | IMAGE – Individualized Gastric Adenocarcinoma Early Diagnosis | Researcher | CCDR-N/FEDER | Ongoing |
+| 2020 | Myocardial Injury in COVID-19: A Prospective Clinical and Mechanistic Study | Researcher | FCT | Ongoing |
+| 2019–2022 | Prever o risco de complicações do tratamento cirúrgico e definir o prognóstico e… | Researcher | FCT | Ongoing |
+| 2018–2021 | SExPeRT – Sequential Pacing for Cardiac Resynchronization Therapy | Researcher | FCT | Concluded |
+| 2016–2020 | DocNet: Diabetes & Obesity at the Crossroads between Oncological and Cardiovascu… | Invited Scientist | CCDR-N/FEDER | Concluded |
+| 2016–2019 | NEw Targets in DIAstolic Heart Failure: from coMOrbidities to personalized Medic… | Invited Scientist | COMPETE | Concluded |
+| 2017–2020 | Exossomas de células estaminais mesenquimatosas para tratamento de feridas cutân… | Researcher | FCT | Concluded |
+| 2014–2016 | Degenerescência macular relacionada com a idade – perfil metabolómico | Researcher | FCT | Concluded |
+| 2012–2015 | Análise de perfis metabólicos: avaliação de efeitos toxicológicos de nanomateria… | Researcher | FCT | Concluded |
+| 2012–2015 | ASTHMA – Gestão futura da asma apoiada por amostragem não invasiva | Researcher | FCT | Concluded |
+| 2011–2014 | O papel do intestino no desenvolvimento da esteatose hepática induzida pela frut… | Researcher | FCT | Concluded |
+| 2010–2013 | Língua electrónica para análise de alimentos | Researcher | FCT | Concluded |
+| 2008–2013 | Chemometrics in Food Chemistry | Researcher | FCT | Concluded |
+| 2008–2011 | Metabolic profiling of human lung tumors by NMR | Researcher | FCT | Concluded |
+| 2007–Present | NMR-based metabolomic study of health disorders of fetus and mother during pregn… | Researcher | FCT | Concluded |
+| 2005–2008 | PYLORI L&EPS: Structural characterization of LPS from Helicobacter pylori | Researcher | FCT | Concluded |
+| 2000 | ASTEQ: Artificial Sensing Techniques for Evaluating Quality | Invited Scientist | EU | Concluded |
 
 ---
 
 ## Selected Publications
 
 See the full [Publications](publications.qmd) page.
-
-**Highlight papers:**
-
-1. Author et al. (2024). Title. *Journal*. [DOI](https://doi.org/)
-2. Author et al. (2023). Title. *Journal*. [DOI](https://doi.org/)
 
 ---
 
@@ -51,9 +79,55 @@ See the full [Publications](publications.qmd) page.
 
 ## Student Supervision
 
-**PhD Students (completed):** X  
-**PhD Students (ongoing):** X  
-**MSc Students (completed):** X  
+**PhD Students (completed):** 6 · **PhD Students (ongoing):** 4
+**MSc Students (completed):** 24 · **MSc Students (ongoing):** 3
+
+### PhD Supervision
+
+| Period | Role | Thesis Title | Programme | Institution | Status |
+|--------|------|-------------|-----------|-------------|--------|
+| 2024–Present | Co-supervisor | Exploring the Potential of Radiomics in Adipose Tissue Characterization for Card… | PhD, Cardiovascular Sciences | FMUP | Ongoing |
+| 2024–Present | Co-supervisor | Early Cardiometabolic Changes in Umbilical Cord Identified in Children Born from… | PhD, Cardiovascular Sciences | FMUP | Ongoing |
+| 2022–Present | Co-supervisor | Targeting microbiome for the management of aortic stenosis (Diana Luísa Ferreira… | PhD, Cardiovascular Sciences | FMUP | Ongoing |
+| 2021–Present | Co-supervisor | Machine learning methods applied to predict the quality of life in patients with… | PhD, Health Data Sciences | FMUP | Ongoing |
+| 2021–2024 | Co-supervisor | Evolving Preclinical Research in Heart Failure with Preserved Ejection Fraction … | PhD, Cardiovascular & Respiratory Sciences | FMUP | Completed |
+| 2010–2014 | Co-supervisor | Pregnancy and newborns disorders followed by urine metabolomics | PhD, Chemistry | UA | Completed |
+| 2010–2013 | Co-supervisor | Metabolomics of urine and plasma for pregnancy monitoring and prediction of diso… | PhD | UA | Completed |
+| 2009–2011 | Co-supervisor | Metabolomic studies to assess beer quality and stability | PhD, Chemistry | UA | Completed |
+| 2005–2009 | Co-supervisor | Contribuições para a melhoria da qualidade nutricional do sorgo | PhD, Biological Sciences | UA | Completed |
+| 2005–2009 | Co-supervisor | Développement de nouvelles méthodes chimiométriques d'analyse (spectroscopic foo… | PhD | AgroParisTech, France | Completed |
+
+### MSc Supervision
+
+| Period | Role | Thesis Title | Programme | Institution | Status |
+|--------|------|-------------|-----------|-------------|--------|
+| 2025–Present | Co-supervisor | Tranexamic acid in aesthetic surgery | MSc | FMUP | Ongoing |
+| 2025–Present | Co-supervisor | Técnica de redução mamária de Liacyr Ribeiro modificada: estudo de resultados a … | MSc | FMUP | Ongoing |
+| 2024–2025 | Co-supervisor | Predictive Value of Abdominal Fat Distribution in CAD Stratification Using ML in… | MSc, Evidence & Health Decision | FMUP | Completed |
+| 2024–2025 | Co-supervisor | Breast Implant Illness: symptoms, management and outcomes – systematic review | MSc, Medicine | FMUP | Completed |
+| 2024–2025 | Co-supervisor | Tromboembolismo na Cirurgia Plástica – revisão sistemática | MSc, Medicine | FMUP | Completed |
+| 2024–2025 | Co-supervisor | The Impact of Tranexamic Acid in Abdominoplasty | MSc, Medicine | FMUP | Completed |
+| 2024–2025 | Co-supervisor | Near-Infrared Spectroscopy as a complementary tool in Peripheral Artery Disease | MSc, Medicine | FMUP | Completed |
+| 2024–2025 | Co-supervisor | Pilot Study of combined therapy with tranexamic acid in breast reduction | MSc, Plastic Surgery | FMUP | Completed |
+| 2023–2024 | Co-supervisor | Dermal Fillers in Facial Aesthetic Procedures – systematic review of severe comp… | MSc, Medicine | FMUP | Completed |
+| 2023–2024 | Co-supervisor | Metabolomics and cardiovascular risk in patients with heart failure: systematic … | MSc, Medicine | FMUP | Completed |
+| 2022–2023 | Co-supervisor | Exploring the Relationship Between Chlorella and Spirulina Intake and Biochemica… | MSc, Cardiovascular Pathophysiology | FMUP | Completed |
+| 2022–2023 | Supervisor | The association between gestational diabetes and the microbiome: systematic revi… | MSc, Medicine | FMUP | Completed |
+| 2022–2023 | Co-supervisor | Clinical Risk Assessment of ACL Injury in Athletes using Biomechanical Factors | MSc, Medicine | FMUP | Completed |
+| 2022–2023 | Co-supervisor | The microbiome role in cardiovascular diseases – systematic review | MSc, Medicine | FMUP | Completed |
+| 2022–2023 | Co-supervisor | Postbariatric abdominoplasty: Scarpa fascia preservation versus classical techni… | MSc, Medicine | FMUP | Completed |
+| 2022–Present | Co-supervisor | Toward an End-to-End Platform for Digital Health Care: a Smart Sensor | MSc | UCP-Porto | Ongoing |
+| 2020–2021 | Supervisor | Lipidomics analysis in cerebrovascular disease and peripheral arterial disease: … | MSc, Biomedical Engineering | UCP/FMUP | Completed |
+| 2019–2020 | Supervisor | Perfil da Expressão Proteica na Doença Arterial Coronária e Fatores de Risco ass… | MSc, Cardiovascular Pathophysiology | FMUP | Completed |
+| 2018–2019 | Supervisor | Embryo selection through time-lapse image analysis: a Deep Learning approach | MSc, Molecular and Cellular Biology | UA | Completed |
+| 2016–2017 | Co-supervisor | Impacto Metabólico da Expressão dos Oncogenes KRAS e MYC em Murganhos com Pancre… | MSc, Biochemistry | UA | Completed |
+| 2013–2014 | Co-supervisor | Detecção e Identificação de Bactérias por Espectrometria de Massa | MSc, Biochemistry | UA | Completed |
+| 2013–2014 | Co-supervisor | Lipidómica do plasma materno para diagnóstico de diabetes gestacional e trissomi… | MSc, Clinical Biochemistry | UA | Completed |
+| 2010 | Co-supervisor | Estudo de um TTI fotocrómico para aplicação em alimentos refrigerados | MSc, Food Biochemistry & Chemistry | UA | Completed |
+| 2010 | Co-supervisor | Análise dos componentes do Azeite utilizando Métodos Quimiométricos | MSc, Food Biotechnology | UA | Completed |
+| 2007–2008 | Co-supervisor | Potencialidades da espectroscopia FTIR na caracterização de aguardentes vínicas | MSc, Food Biochemistry & Chemistry | UA | Completed |
+| 2006–2007 | Co-supervisor | Desenvolvimento de metodologia instrumental rápida para a análise de alimentos | MSc, Food Quality & Chemistry | UA | Completed |
+| 2005–2006 | Co-supervisor | Métodos espectroscópicos para o estudo da cerveja | MSc, Food Quality & Chemistry | UA | Completed |
 
 ---
 
@@ -61,18 +135,16 @@ See the full [Publications](publications.qmd) page.
 
 ### Editorial
 
-- Reviewer for: *Statistics in Medicine*, *BMC Medical Research Methodology*, ...
+- Reviewer for: *Statistics in Medicine*, *BMC Medical Research Methodology*, and other journals
 
 ---
 
 ## Technical Skills
 
-**Statistical Software:** R (advanced), Python,  
-**Programming:** R package development, Shiny applications  
-**Reproducibility:** Quarto, R Markdown, Git/GitHub  
-**Statistical & Machine Learning Application:** 
-    : Radiomics
-    : Metabolomics & 
+**Statistical Software:** R (advanced), Python, Rust
+**Programming:** R package development, Shiny applications
+**Reproducibility:** Quarto, R Markdown, Git/GitHub
+**Statistical & Machine Learning:** Survival analysis, joint modelling, radiomics, metabolomics, proteomics, causal inference, conformal prediction
 
 ---
 
@@ -84,4 +156,4 @@ See the full [Publications](publications.qmd) page.
 
 ---
 
-*Last updated: January 2025*
+*Last updated: February 2026*
