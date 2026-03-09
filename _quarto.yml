@@ -19,8 +19,14 @@ website:
         text: Publications
       - text: Projects
         menu:
-          - href: projects/cardionir-pad-nirs.qmd
-            text: "CardioNIR — NIRS in PAD"
+          - text: "CardioNIR — NIRS in PAD"
+            href: projects/cardionir-pad-nirs.qmd
+          - text: "CardioNIR — Olink Proteomics"
+            href: projects/cardionir-proteomics.qmd
+          - text: "CardioNIR — Metabolomics"
+            href: projects/cardionir-metabolomics.qmd
+          - text: "CardioNIR — Predictive Modeling Pipeline"
+            href: projects/cardionir-pipeline.qmd
       - href: teaching.qmd
         text: Teaching
       - href: cv.qmd
