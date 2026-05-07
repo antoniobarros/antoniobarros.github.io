@@ -115,7 +115,7 @@ Joint analysis of proteins and metabolites for integrated multi-omics biomarker 
 
 ## Related
 
-- [CardioNIR — Olink Proteomics](cardionir-proteomics.html)
-- [CardioNIR — NIRS in PAD](cardionir-pad-nirs.html)
-- [CardioNIR — Predictive Modeling Pipeline](cardionir-pipeline.html)
+- [CardioNIR — Olink Proteomics](proteomics.html)
+- [CardioNIR — NIRS in PAD](pad-nirs.html)
+- [CardioNIR — Predictive Modeling Pipeline](pipeline.html)
 - [Project Reference: PTDC/EMD-EMD/3822/2021](https://doi.org/10.54499/PTDC/EMD-EMD/3822/2021)

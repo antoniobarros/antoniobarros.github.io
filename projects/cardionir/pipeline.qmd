@@ -130,7 +130,7 @@ Complementing the predictive modelling framework, the pipeline includes a dedica
 - **Hub identification** — degree centrality, betweenness, hub scores for identifying key molecular players
 - **Module-trait correlations** — association of co-expression modules with clinical outcomes
 
-This network module is the analytical engine behind the [proteomics](cardionir-proteomics.html) and [metabolomics](cardionir-metabolomics.html) results pages.
+This network module is the analytical engine behind the [proteomics](proteomics.html) and [metabolomics](metabolomics.html) results pages.
 
 ## Reusable Modules
 
@@ -143,11 +143,11 @@ The pipeline has been modularised into **22 reusable data analysis modules** cov
 - Network construction and community detection
 - Visualisation (volcano plots, heatmaps, PCA biplots, calibration plots)
 
-These modules are currently deployed across active projects at the Cardiovascular Research Centre, including [CardioNIR](https://doi.org/10.54499/PTDC/EMD-EMD/3822/2021), [BEACON](cardionir-metabolomics.html), [CARDIA](cardionir-metabolomics.html), and [IBERIA](cardionir-metabolomics.html).
+These modules are currently deployed across active projects at the Cardiovascular Research Centre, including [CardioNIR](https://doi.org/10.54499/PTDC/EMD-EMD/3822/2021), [BEACON](metabolomics.html), [CARDIA](metabolomics.html), and [IBERIA](metabolomics.html).
 
 ## Related
 
-- [CardioNIR — Olink Proteomics](cardionir-proteomics.html)
-- [CardioNIR — Trans-Myocardial Metabolomics](cardionir-metabolomics.html)
-- [CardioNIR — NIRS in PAD](cardionir-pad-nirs.html)
+- [CardioNIR — Olink Proteomics](proteomics.html)
+- [CardioNIR — Trans-Myocardial Metabolomics](metabolomics.html)
+- [CardioNIR — NIRS in PAD](pad-nirs.html)
 - [Project Reference: PTDC/EMD-EMD/3822/2021](https://doi.org/10.54499/PTDC/EMD-EMD/3822/2021)

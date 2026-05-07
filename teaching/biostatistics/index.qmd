@@ -1,0 +1,26 @@
+---
+title: "Biostatistics"
+subtitle: "Regression, splines, missing data, Bayesian workflows"
+description: |
+  Lessons covering core biostatistical methods for clinical research,
+  including live in-browser tutorials powered by WebR — drag sliders,
+  edit models, no R installation required.
+categories: [active]
+listing:
+  contents: ["*.qmd"]
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [date, title, subtitle, description, categories, reading-time]
+  feed: true
+page-layout: full
+title-block-banner: true
+---
+
+A growing collection of lessons on regression methods, missing data,
+longitudinal modelling, survival analysis, and Bayesian workflows.
+Most were originally written for medical and PhD audiences at FMUP.
+
+The interactive lessons run R directly in your browser — there is no server,
+no account, and nothing to install. Click through, drag sliders, edit code,
+and break models freely.

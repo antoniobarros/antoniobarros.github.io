@@ -3,7 +3,7 @@ title: "NIRS in Peripheral Artery Disease"
 subtitle: "Differentiating upper and lower limbs and correlation with the ankle-brachial index"
 description: "Pilot study evaluating near-infrared spectroscopy as a non-invasive complementary tool for PAD assessment"
 date: 2025-08-21
-image: cardionir-pad-nirs-banner.svg
+image: pad-nirs-banner.svg
 categories: [CardioNIR, NIRS, PAD, Machine Learning]
 toc: true
 toc-depth: 2

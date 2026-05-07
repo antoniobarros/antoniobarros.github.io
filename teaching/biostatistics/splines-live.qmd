@@ -1,0 +1,122 @@
+---
+title: "Regression Splines: An Interactive Introduction"
+subtitle: "Modelling nonlinear age effects in clinical data"
+description: |
+  A live in-browser tutorial showing why linear and polynomial fits fail for
+  nonlinear clinical predictors, and why natural cubic splines are usually the
+  right tool. Includes a reactive slider for spline degrees of freedom.
+date: 2026-05-07
+categories: [biostatistics, regression, splines, interactive, webR]
+author: "António S. Barros"
+format: live-html
+engine: knitr
+webr:
+  packages:
+    - ggplot2
+    - splines
+---
+
+{{< include ../../_extensions/r-wasm/live/_knitr.qmd >}}
+
+## The problem
+
+Many clinical predictors do not relate linearly to the outcome. A textbook
+example is **age**: systolic blood pressure rises gently in young adulthood,
+accelerates around midlife, and may flatten in the very old.
+
+Let's simulate a dataset that captures this pattern and compare three
+modelling strategies - all running **inside your browser**.
+
+```{webr}
+#| autorun: true
+library(ggplot2)
+library(splines)
+
+set.seed(2026)
+n   <- 400
+age <- runif(n, 20, 85)
+# True nonlinear mean
+mu  <- 110 + 0.10 * age + 0.012 * (age - 20)^2 - 0.0001 * (age - 20)^3
+sbp <- mu + rnorm(n, 0, 8)
+clin <- data.frame(age = age, sbp = sbp)
+
+ggplot(clin, aes(age, sbp)) +
+  geom_point(alpha = 0.5) +
+  labs(x = "Age (years)", y = "Systolic BP (mmHg)") +
+  theme_minimal()
+```
+
+## Attempt 1: a straight line
+
+```{webr}
+#| autorun: true
+m_lin <- lm(sbp ~ age, data = clin)
+
+ggplot(clin, aes(age, sbp)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = TRUE, colour = "steelblue") +
+  labs(title = sprintf("Linear fit | R² = %.3f", summary(m_lin)$r.squared)) +
+  theme_minimal()
+```
+
+The residuals are systematically positive in the middle and negative at the
+tails - a clear misspecification signal.
+
+## Attempt 2: polynomials (editable)
+
+A common quick fix is to add higher-order terms. **Edit the chunk below**:
+change `degree` from 3 to 7, 10, 15. Watch the curve oscillate at the
+boundaries - Runge's phenomenon in action.
+
+```{webr}
+degree <- 3   # <-- change me, then click Run
+
+m_poly <- lm(sbp ~ poly(age, degree), data = clin)
+
+ggplot(clin, aes(age, sbp)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm",
+              formula = y ~ poly(x, degree),
+              se = TRUE, colour = "darkorange") +
+  labs(title = sprintf("Polynomial degree %d", degree)) +
+  theme_minimal()
+```
+
+The pedagogical point: polynomials are *global* - a single tail observation
+can yank the entire curve.
+
+## Attempt 3: natural cubic splines (reactive)
+
+Splines are *local*: piecewise polynomials joined smoothly at knots.
+Drag the slider to change the degrees of freedom.
+
+```{ojs}
+//| echo: false
+viewof df_val = Inputs.range(
+  [3, 20],
+  { value: 5, step: 1, label: "Spline df:" }
+)
+```
+
+```{webr}
+#| autorun: true
+#| input:
+#|   - df_val
+m_ns <- lm(sbp ~ ns(age, df = df_val), data = clin)
+
+age_grid <- data.frame(age = seq(min(clin$age), max(clin$age), length.out = 200))
+pred     <- predict(m_ns, newdata = age_grid, interval = "confidence")
+plot_df  <- cbind(age_grid, pred)
+
+ggplot(clin, aes(age, sbp)) +
+  geom_point(alpha = 0.4) +
+  geom_ribbon(data = plot_df,
+              aes(y = fit, ymin = lwr, ymax = upr),
+              alpha = 0.2, fill = "darkgreen") +
+  geom_line(data = plot_df,
+            aes(y = fit),
+            colour = "darkgreen", linewidth = 1) +
+  labs(title = sprintf("Natural cubic spline, df = %d", df_val),
+       x = "Age (years)", y = "Systolic BP (mmHg)") +
+  theme_minimal()
+```

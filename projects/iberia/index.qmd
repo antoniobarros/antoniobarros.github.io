@@ -1,0 +1,37 @@
+---
+title: "IBERIA"
+subtitle: "Echocardiographic radiomics for atrial fibrillation recurrence"
+description: |
+  A high-dimensional radiomics study of post-ablation atrial fibrillation
+  recurrence. 851 echocardiographic radiomic features evaluated against
+  clinical predictors using stability selection and Bayesian variable
+  selection — a rigorously characterised negative result.
+categories: [active, radiomics, atrial-fibrillation, echocardiography, Bayesian]
+page-layout: full
+title-block-banner: true
+---
+
+IBERIA asks whether echocardiographic radiomic features — quantitative
+descriptors of texture, intensity, and shape extracted from standard 2D
+echo views — carry prognostic information for atrial fibrillation
+recurrence beyond what established clinical predictors already provide.
+
+The answer, after substantial methodological care, is **no**. Across
+nested cross-validation, Meinshausen–Bühlmann stability selection, and
+Bayesian variable selection with horseshoe priors, no radiomic feature
+achieves a posterior inclusion probability or stability frequency
+comparable to the routine clinical predictors. This is a *characterised*
+negative result — one in which the absence of signal has been distinguished
+from the absence of power, signal-to-noise has been quantified via Fisher's
+discriminant ratio and Cohen's *d*, and alternative explanations have been
+systematically ruled out.
+
+The methodological infrastructure built for IBERIA — the stability-selection
+audit, the Bayesian variable-selection pipeline with prior sensitivity
+analysis, and the conformal prediction layer — has since been generalised
+into the `opsis` R package and is being reused across CardioNIR and DynaCARD.
+
+::: {.callout-note}
+Sub-project pages (study design, feature pipeline, stability-selection
+audit, Bayesian model card, methodological retrospective) are forthcoming.
+:::
