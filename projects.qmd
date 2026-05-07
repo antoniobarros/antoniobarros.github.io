@@ -1,0 +1,26 @@
+---
+title: "Projects"
+subtitle: "Active research and methodological development"
+listing:
+  - id: families
+    contents:
+      - projects/*/index.qmd
+    type: grid
+    grid-columns: 2
+    fields: [title, subtitle, description, image, categories]
+    sort-ui: false
+    filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+A short tour of the projects I currently lead or contribute to, spanning
+cardiovascular AI, multi-omics, radiomics, perioperative risk, and
+methodological development for clinical prediction.
+
+Each project family below collects related sub-analyses — empirical work,
+methods development, and software — under a single scientific question.
+Click any card for the full write-up and sub-pages.
+
+::: {#families}
+:::

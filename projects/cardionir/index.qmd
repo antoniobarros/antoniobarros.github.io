@@ -1,0 +1,42 @@
+---
+title: "CardioNIR"
+subtitle: "Near-infrared spectroscopy and multi-omics in cardiopulmonary bypass"
+description: |
+  FCT-funded project (PTDC/EMD-EMD/3822/2021) developing a label-free,
+  rapid intraoperative monitoring framework for cardiac surgery. Combines
+  NIR spectroscopy on dried blood spots, Olink CVD III proteomics, and
+  UHPLC-QqTOF metabolomics in a swine cardiopulmonary bypass model.
+categories: [active, FCT, multi-omics, NIR, cardiac-surgery]
+listing:
+  contents: ["*.qmd"]
+  type: default
+  sort: "title"
+  categories: true
+  fields: [title, subtitle, description, categories, reading-time]
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+CardioNIR investigates whether near-infrared spectra of dried blood spots,
+combined with proteomic and metabolomic profiling, can capture the dynamic
+metabolic state of an animal during cardiopulmonary bypass — and whether
+those signatures translate into a usable, low-burden intraoperative
+monitoring tool.
+
+Headline empirical results so far include an R² of 0.81 for anion gap from
+NIR alone, a metabolic exhaustion threshold around 35–40 minutes on bypass,
+and a reusable, open-source 22-module preprocessing and modelling pipeline.
+The project sits at the intersection of analytical chemistry, surgical
+physiology, and high-dimensional statistical learning.
+
+The four sub-analyses below decompose the work into:
+
+- **Pipeline** — the open-source preprocessing and modelling framework.
+- **NIR-PAD** — peripheral arterial disease modelling from NIR spectra of
+  dried blood spots, including replicate averaging and conformal prediction.
+- **Proteomics** — Olink CVD III analysis of 92 cardiovascular proteins
+  across bypass phases.
+- **Metabolomics** — UHPLC-QqTOF metabolomic phenotyping and integration
+  with the spectral and proteomic layers.

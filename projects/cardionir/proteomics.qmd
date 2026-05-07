@@ -179,6 +179,6 @@ An important methodological finding: the hemodilution induced by the CPB machine
 
 ## Related
 
-- [CardioNIR — NIRS in PAD](cardionir-pad-nirs.html)
-- [CardioNIR — Metabolomics Results](cardionir-metabolomics.html)
+- [CardioNIR — NIRS in PAD](pad-nirs.html)
+- [CardioNIR — Metabolomics Results](metabolomics.html)
 - [Project Reference: PTDC/EMD-EMD/3822/2021](https://doi.org/10.54499/PTDC/EMD-EMD/3822/2021)

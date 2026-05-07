@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "António Barros"  
+  title: "António Barros"
   description: "Biostatistician & Bioinformatician | Faculty of Medicine, University of Porto"
-  site-url: https://antoniobarros.github.io 
-  
+  site-url: https://antoniobarros.github.io
+
   navbar:
     background: "#2c3e50"
     foreground: light
@@ -17,16 +17,8 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
-      - text: Projects
-        menu:
-          - text: "CardioNIR — NIRS in PAD"
-            href: projects/cardionir-pad-nirs.qmd
-          - text: "CardioNIR — Olink Proteomics"
-            href: projects/cardionir-proteomics.qmd
-          - text: "CardioNIR — Metabolomics"
-            href: projects/cardionir-metabolomics.qmd
-          - text: "CardioNIR — Predictive Modeling Pipeline"
-            href: projects/cardionir-pipeline.qmd
+      - href: projects.qmd
+        text: Projects
       - href: teaching.qmd
         text: Teaching
       - href: cv.qmd
@@ -37,16 +29,16 @@ website:
       - icon: envelope
         href: mailto:asbarros@med.up.pt
       - icon: mortarboard
-        href: https://orcid.org/0000-0002-9103-5852 
+        href: https://orcid.org/0000-0002-9103-5852
 
   page-footer:
     background: "#0d2840"
     foreground: light
-    center:  © 2026 António Barros 
+    center: © 2026 António Barros
 
 format:
   html:
-    theme: 
+    theme:
       light: flatly
       dark: darkly
     css: styles.css
@@ -55,13 +47,18 @@ format:
     code-fold: false
     code-tools: false
     highlight-style: github
-    include-after-body: 
-      text:
-        <script data-goatcounter="https://abarros.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
+    include-after-body:
+      text: |
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0e7e3e27122a401ca2d6d58615025326"}'></script>
 # For academic citations
 bibliography: references.bib
 
 execute:
   freeze: auto
+
+webr:
+  packages:
+    - ggplot2
+    - splines
+    - dplyr
+    - mice
